@@ -1,0 +1,817 @@
+{
+  "hinweis": "Poster von TMDb (themoviedb.org). Dieses Projekt ist privat und wird nicht von TMDb unterstuetzt oder zertifiziert.",
+  "stand": "2026-09-22",
+  "anzahl": 81,
+  "cover": {
+    "film-inception": {
+      "datei": "covers/film-inception.jpg",
+      "art": "film",
+      "titel": "Inception",
+      "tmdb_id": 27205,
+      "poster_path": "/t5WUY5ZSxwVIVExaMZmmIj88BKA.jpg",
+      "gefunden_ueber": "Titelsuche",
+      "bytes": 71806,
+      "geholt_am": "2026-09-22"
+    },
+    "film-avengers-endgame": {
+      "datei": "covers/film-avengers-endgame.jpg",
+      "art": "film",
+      "titel": "Avengers: Endgame",
+      "tmdb_id": 299534,
+      "poster_path": "/ibO8Pj0aA1nwj3Q9FMpMcYZkdCA.jpg",
+      "gefunden_ueber": "Titelsuche",
+      "bytes": 74867,
+      "geholt_am": "2026-09-22"
+    },
+    "tt15239678": {
+      "datei": "covers/tt15239678.jpg",
+      "art": "film",
+      "titel": "Dune: Part Two",
+      "tmdb_id": 693134,
+      "poster_path": "/zYLP7Uiqz6XqoiQLAu4XQ6DRUMz.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 20344,
+      "geholt_am": "2026-09-22"
+    },
+    "tt10288566": {
+      "datei": "covers/tt10288566.jpg",
+      "art": "film",
+      "titel": "Der Rausch",
+      "tmdb_id": 580175,
+      "poster_path": "/ciltLZCR8qWMvfotLvtJstqIbVK.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 56895,
+      "geholt_am": "2026-09-22"
+    },
+    "tt5363618": {
+      "datei": "covers/tt5363618.jpg",
+      "art": "film",
+      "titel": "Sound of Metal",
+      "tmdb_id": 502033,
+      "poster_path": "/3178oOJKKPDeQ2legWQvMPpllv.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 31456,
+      "geholt_am": "2026-09-22"
+    },
+    "tt9770150": {
+      "datei": "covers/tt9770150.jpg",
+      "art": "film",
+      "titel": "Nomadland",
+      "tmdb_id": 581734,
+      "poster_path": "/8Vc5EOUEIF1EUXuX9eLFf7BvN3P.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 59917,
+      "geholt_am": "2026-09-22"
+    },
+    "tt2948372": {
+      "datei": "covers/tt2948372.jpg",
+      "art": "film",
+      "titel": "Soul",
+      "tmdb_id": 508442,
+      "poster_path": "/hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 42072,
+      "geholt_am": "2026-09-22"
+    },
+    "tt7126948": {
+      "datei": "covers/tt7126948.jpg",
+      "art": "film",
+      "titel": "Wonder Woman 1984",
+      "tmdb_id": 464052,
+      "poster_path": "/fSkiWLmSZJS5NBJBjztcMvfWNvS.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 60003,
+      "geholt_am": "2026-09-22"
+    },
+    "tt1070874": {
+      "datei": "covers/tt1070874.jpg",
+      "art": "film",
+      "titel": "Der Prozess gegen die Chicago 7",
+      "tmdb_id": 556984,
+      "poster_path": "/ahf5cVdooMAlDRiJOZQNuLqa1Is.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 70053,
+      "geholt_am": "2026-09-22"
+    },
+    "tt10872600": {
+      "datei": "covers/tt10872600.jpg",
+      "art": "film",
+      "titel": "Spider-Man: No Way Home",
+      "tmdb_id": 634649,
+      "poster_path": "/iNKf4D0AzOj9GLq8ZyG3WZaqibL.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 87363,
+      "geholt_am": "2026-09-22"
+    },
+    "tt1160419": {
+      "datei": "covers/tt1160419.jpg",
+      "art": "film",
+      "titel": "Dune",
+      "tmdb_id": 438631,
+      "poster_path": "/34Hr4bEzF30jd6sEvI4HihEUEI8.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 58377,
+      "geholt_am": "2026-09-22"
+    },
+    "tt2953050": {
+      "datei": "covers/tt2953050.jpg",
+      "art": "film",
+      "titel": "Encanto",
+      "tmdb_id": 568124,
+      "poster_path": "/oBdS1Jap1wwuH166b8nZNZKSlml.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 79739,
+      "geholt_am": "2026-09-22"
+    },
+    "tt2382320": {
+      "datei": "covers/tt2382320.jpg",
+      "art": "film",
+      "titel": "No Time to Die",
+      "tmdb_id": 370172,
+      "poster_path": "/bqq2dlwWAm5O5RVPGHVwwxhESK1.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 30818,
+      "geholt_am": "2026-09-22"
+    },
+    "tt9376612": {
+      "datei": "covers/tt9376612.jpg",
+      "art": "film",
+      "titel": "Shang-Chi and the Legend of the Ten Rings",
+      "tmdb_id": 566525,
+      "poster_path": "/AjXzHBNlmCXZnvpONbUhGtgiUiA.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 71152,
+      "geholt_am": "2026-09-22"
+    },
+    "tt8721424": {
+      "datei": "covers/tt8721424.jpg",
+      "art": "film",
+      "titel": "tick, tick… BOOM!",
+      "tmdb_id": 537116,
+      "poster_path": "/xFDB30JUHtjh5wGueyPlWdVcqOG.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 39385,
+      "geholt_am": "2026-09-22"
+    },
+    "tt9639470": {
+      "datei": "covers/tt9639470.jpg",
+      "art": "film",
+      "titel": "Last Night in Soho",
+      "tmdb_id": 576845,
+      "poster_path": "/azdy7STEzLAyrhzeKZfl15jZYMN.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 53504,
+      "geholt_am": "2026-09-22"
+    },
+    "tt1745960": {
+      "datei": "covers/tt1745960.jpg",
+      "art": "film",
+      "titel": "Top Gun: Maverick",
+      "tmdb_id": 361743,
+      "poster_path": "/cvLe7YpLTsgT25FpuTD1bwgEcWZ.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 48835,
+      "geholt_am": "2026-09-22"
+    },
+    "tt6710474": {
+      "datei": "covers/tt6710474.jpg",
+      "art": "film",
+      "titel": "Everything Everywhere All at Once",
+      "tmdb_id": 545611,
+      "poster_path": "/kiros9XpKnh6bzC4sfZhtHaQ0Y7.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 101241,
+      "geholt_am": "2026-09-22"
+    },
+    "tt1016150": {
+      "datei": "covers/tt1016150.jpg",
+      "art": "film",
+      "titel": "Im Westen nichts Neues",
+      "tmdb_id": 49046,
+      "poster_path": "/sNsmI4vQ1A6VG52dquTFx8oNTWk.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 51480,
+      "geholt_am": "2026-09-22"
+    },
+    "tt1877830": {
+      "datei": "covers/tt1877830.jpg",
+      "art": "film",
+      "titel": "The Batman",
+      "tmdb_id": 414906,
+      "poster_path": "/6zm78OqO4jWCpuaZ7q6Mb5j1beM.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 57585,
+      "geholt_am": "2026-09-22"
+    },
+    "tt1488589": {
+      "datei": "covers/tt1488589.jpg",
+      "art": "film",
+      "titel": "Guillermo del Toros Pinocchio",
+      "tmdb_id": 555604,
+      "poster_path": "/5gRQwkM1K9gdBYj74HS5KC8gm8q.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 40771,
+      "geholt_am": "2026-09-22"
+    },
+    "tt13833688": {
+      "datei": "covers/tt13833688.jpg",
+      "art": "film",
+      "titel": "The Whale",
+      "tmdb_id": 785084,
+      "poster_path": "/4UGVlTRT4rbyfdAzXTXh8YM81MZ.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 40600,
+      "geholt_am": "2026-09-22"
+    },
+    "tt1630029": {
+      "datei": "covers/tt1630029.jpg",
+      "art": "film",
+      "titel": "Avatar: The Way of Water",
+      "tmdb_id": 76600,
+      "poster_path": "/dsBpvG4m0uOerBOuNITL9rvaD0I.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 58865,
+      "geholt_am": "2026-09-22"
+    },
+    "tt15398776": {
+      "datei": "covers/tt15398776.jpg",
+      "art": "film",
+      "titel": "Oppenheimer",
+      "tmdb_id": 872585,
+      "poster_path": "/9AiHV08v8RyyuHcO5wuTaTXBxfe.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 59785,
+      "geholt_am": "2026-09-22"
+    },
+    "tt9362722": {
+      "datei": "covers/tt9362722.jpg",
+      "art": "film",
+      "titel": "Spider-Man: Across the Spider-Verse",
+      "tmdb_id": 569094,
+      "poster_path": "/6jYQM7zldTF0q6Ky1XbIJCNsS2L.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 69018,
+      "geholt_am": "2026-09-22"
+    },
+    "tt23289160": {
+      "datei": "covers/tt23289160.jpg",
+      "art": "film",
+      "titel": "Godzilla Minus One",
+      "tmdb_id": 940721,
+      "poster_path": "/qLDYv9VSHEL7Jvo248bM2wXhR6p.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 76221,
+      "geholt_am": "2026-09-22"
+    },
+    "tt16277242": {
+      "datei": "covers/tt16277242.jpg",
+      "art": "film",
+      "titel": "La sociedad de la nieve",
+      "tmdb_id": 906126,
+      "poster_path": "/x2oRswqEaboeJdSamkl34plsvh7.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 63579,
+      "geholt_am": "2026-09-22"
+    },
+    "tt10366206": {
+      "datei": "covers/tt10366206.jpg",
+      "art": "film",
+      "titel": "John Wick: Kapitel 4",
+      "tmdb_id": 603692,
+      "poster_path": "/uDFv0wYODTdRUvljRMs3LaX9nq3.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 44562,
+      "geholt_am": "2026-09-22"
+    },
+    "tt1517268": {
+      "datei": "covers/tt1517268.jpg",
+      "art": "film",
+      "titel": "Barbie",
+      "tmdb_id": 346698,
+      "poster_path": "/6WP6FD932ce3H3Xi2UU5CVI7ilL.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 47244,
+      "geholt_am": "2026-09-22"
+    },
+    "tt9603212": {
+      "datei": "covers/tt9603212.jpg",
+      "art": "film",
+      "titel": "Mission: Impossible – Dead Reckoning Teil Eins",
+      "tmdb_id": 575264,
+      "poster_path": "/nrQiVtkneYx9doR1ARG6HDrImpv.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 66107,
+      "geholt_am": "2026-09-22"
+    },
+    "tt29623480": {
+      "datei": "covers/tt29623480.jpg",
+      "art": "film",
+      "titel": "Der wilde Roboter",
+      "tmdb_id": 1184918,
+      "poster_path": "/jOZCN1IpDivlnfJKd4o2V1GCthe.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 71504,
+      "geholt_am": "2026-09-22"
+    },
+    "tt22022452": {
+      "datei": "covers/tt22022452.jpg",
+      "art": "film",
+      "titel": "Alles steht Kopf 2",
+      "tmdb_id": 1022789,
+      "poster_path": "/d1x6XyewluS8gxPXqb0PZnpQPUQ.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 61311,
+      "geholt_am": "2026-09-22"
+    },
+    "tt6263850": {
+      "datei": "covers/tt6263850.jpg",
+      "art": "film",
+      "titel": "Deadpool & Wolverine",
+      "tmdb_id": 533535,
+      "poster_path": "/chDpMyvXNDFMhg3yUknITnGUCUk.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 69886,
+      "geholt_am": "2026-09-22"
+    },
+    "tt28607951": {
+      "datei": "covers/tt28607951.jpg",
+      "art": "film",
+      "titel": "Anora",
+      "tmdb_id": 1064213,
+      "poster_path": "/2lkfpHXGySS0vpGihZ4VbMovWCF.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 41761,
+      "geholt_am": "2026-09-22"
+    },
+    "tt17526714": {
+      "datei": "covers/tt17526714.jpg",
+      "art": "film",
+      "titel": "The Substance",
+      "tmdb_id": 933260,
+      "poster_path": "/mFNz9zolYSLmALA5cY7ZHyFUnxS.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 44681,
+      "geholt_am": "2026-09-22"
+    },
+    "tt1262426": {
+      "datei": "covers/tt1262426.jpg",
+      "art": "film",
+      "titel": "Wicked",
+      "tmdb_id": 402431,
+      "poster_path": "/r48wrB5wT9Q9x7KBbBqw9m7KkZP.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 61067,
+      "geholt_am": "2026-09-22"
+    },
+    "tt31193180": {
+      "datei": "covers/tt31193180.jpg",
+      "art": "film",
+      "titel": "Sinners",
+      "tmdb_id": 1233413,
+      "poster_path": "/prlk4Qnuw2cGyc7Plsoqq1ldPsZ.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 49572,
+      "geholt_am": "2026-09-22"
+    },
+    "tt14205554": {
+      "datei": "covers/tt14205554.jpg",
+      "art": "film",
+      "titel": "KPop Demon Hunters",
+      "tmdb_id": 803796,
+      "poster_path": "/3Ps8dRYdD4kcJQACirB2Vfqs01c.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 60390,
+      "geholt_am": "2026-09-22"
+    },
+    "tt16311594": {
+      "datei": "covers/tt16311594.jpg",
+      "art": "film",
+      "titel": "F1",
+      "tmdb_id": 911430,
+      "poster_path": "/8IUkPSxOh0KRbbVNYHSyBKQI5J0.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 50751,
+      "geholt_am": "2026-09-22"
+    },
+    "tt26743210": {
+      "datei": "covers/tt26743210.jpg",
+      "art": "film",
+      "titel": "Drachenzähmen leicht gemacht",
+      "tmdb_id": 1087192,
+      "poster_path": "/v3xvZksofSo74AWKa1YeTywLyPd.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 46531,
+      "geholt_am": "2026-09-22"
+    },
+    "tt30144839": {
+      "datei": "covers/tt30144839.jpg",
+      "art": "film",
+      "titel": "One Battle After Another",
+      "tmdb_id": 1054867,
+      "poster_path": "/5k2WV1i6jcnbPmRhoXSEQWQGT9u.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 47888,
+      "geholt_am": "2026-09-22"
+    },
+    "tt9603208": {
+      "datei": "covers/tt9603208.jpg",
+      "art": "film",
+      "titel": "Mission: Impossible – The Final Reckoning",
+      "tmdb_id": 575265,
+      "poster_path": "/pon10ZnAfQFSl7FeT2947agNUKL.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 44474,
+      "geholt_am": "2026-09-22"
+    },
+    "tt26443597": {
+      "datei": "covers/tt26443597.jpg",
+      "art": "film",
+      "titel": "Zoomania 2",
+      "tmdb_id": 1084242,
+      "poster_path": "/1PQLWjtGH1QfiGlFI83WUFbw5GN.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 64484,
+      "geholt_am": "2026-09-22"
+    },
+    "tt1757678": {
+      "datei": "covers/tt1757678.jpg",
+      "art": "film",
+      "titel": "Avatar: Fire and Ash",
+      "tmdb_id": 83533,
+      "poster_path": "/nB8gjQdI6RPczGcJ5mzCgAdjdH8.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 79541,
+      "geholt_am": "2026-09-22"
+    },
+    "tt12042730": {
+      "datei": "covers/tt12042730.jpg",
+      "art": "film",
+      "titel": "Project Hail Mary",
+      "tmdb_id": 687163,
+      "poster_path": "/1hJdqwEDES96CRZCaiOVuqWLJFX.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 56653,
+      "geholt_am": "2026-09-22"
+    },
+    "tmp:the-odyssey-2026": {
+      "datei": "covers/tmp_the-odyssey-2026.jpg",
+      "art": "film",
+      "titel": "Die Odyssee",
+      "tmdb_id": 1368337,
+      "poster_path": "/4E8Ji8jTcWNncl9PdUCauoj2qh9.jpg",
+      "gefunden_ueber": "Titelsuche",
+      "bytes": 28873,
+      "geholt_am": "2026-09-22"
+    },
+    "tmp:spider-man-brand-new-day-2026": {
+      "datei": "covers/tmp_spider-man-brand-new-day-2026.jpg",
+      "art": "film",
+      "titel": "Spider-Man: Brand New Day",
+      "tmdb_id": 969681,
+      "poster_path": "/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
+      "gefunden_ueber": "Titelsuche",
+      "bytes": 56195,
+      "geholt_am": "2026-09-22"
+    },
+    "tmp:toy-story-5-2026": {
+      "datei": "covers/tmp_toy-story-5-2026.jpg",
+      "art": "film",
+      "titel": "Toy Story 5",
+      "tmdb_id": 1084244,
+      "poster_path": "/geypzdXdx8LooxB691r3bhlrybB.jpg",
+      "gefunden_ueber": "Titelsuche",
+      "bytes": 60952,
+      "geholt_am": "2026-09-22"
+    },
+    "tmp:28-years-later-the-bone-temple-2026": {
+      "datei": "covers/tmp_28-years-later-the-bone-temple-2026.jpg",
+      "art": "film",
+      "titel": "28 Years Later: The Bone Temple",
+      "tmdb_id": 1272837,
+      "poster_path": "/qCyxbvtCm3V4KPEEFzTFK5HIFRT.jpg",
+      "gefunden_ueber": "Titelsuche",
+      "bytes": 56565,
+      "geholt_am": "2026-09-22"
+    },
+    "tmp:the-super-mario-galaxy-movie-2026": {
+      "datei": "covers/tmp_the-super-mario-galaxy-movie-2026.jpg",
+      "art": "film",
+      "titel": "Der Super Mario Galaxy Film",
+      "tmdb_id": 1226863,
+      "poster_path": "/lggrFZlEDu3kmic1DnZl9c6bcD9.jpg",
+      "gefunden_ueber": "Titelsuche",
+      "bytes": 71121,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-breaking-bad": {
+      "datei": "covers/serie-breaking-bad.jpg",
+      "art": "serie",
+      "titel": "Breaking Bad",
+      "tmdb_id": 1396,
+      "poster_path": "/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+      "gefunden_ueber": "Titelsuche",
+      "bytes": 57224,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-loki": {
+      "datei": "covers/serie-loki.jpg",
+      "art": "serie",
+      "titel": "Loki",
+      "tmdb_id": 84958,
+      "poster_path": "/kEl2t3OhXc3Zb9FBh1AuYzRTgZp.jpg",
+      "gefunden_ueber": "Titelsuche",
+      "bytes": 73119,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-the-bear": {
+      "datei": "covers/serie-the-bear.jpg",
+      "art": "serie",
+      "titel": "The Bear",
+      "tmdb_id": 136315,
+      "poster_path": "/14zAGUZmtZ5zXrf51ose34nlyL9.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 68822,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-severance": {
+      "datei": "covers/serie-severance.jpg",
+      "art": "serie",
+      "titel": "Severance – Die Trennung",
+      "tmdb_id": 95396,
+      "poster_path": "/pPHpeI2X1qEd1CS1SeyrdhZ4qnT.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 31769,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-shogun": {
+      "datei": "covers/serie-shogun.jpg",
+      "art": "serie",
+      "titel": "Shōgun",
+      "tmdb_id": 126308,
+      "poster_path": "/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 50859,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-adolescence": {
+      "datei": "covers/serie-adolescence.jpg",
+      "art": "serie",
+      "titel": "Adolescence",
+      "tmdb_id": 249042,
+      "poster_path": "/20i4nShZZg1g1VFHSB8xpaYM4r7.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 26978,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-the-last-of-us": {
+      "datei": "covers/serie-the-last-of-us.jpg",
+      "art": "serie",
+      "titel": "The Last of Us",
+      "tmdb_id": 100088,
+      "poster_path": "/igwIPNClQpGVzb61QlGqcpT5zUy.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 48794,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-squid-game": {
+      "datei": "covers/serie-squid-game.jpg",
+      "art": "serie",
+      "titel": "Squid Game",
+      "tmdb_id": 93405,
+      "poster_path": "/zLSK0ZnKbNYUgAUSgyYfjCIMHUw.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 64744,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-el-eternauta": {
+      "datei": "covers/serie-el-eternauta.jpg",
+      "art": "serie",
+      "titel": "Die Legende von El Eternauta",
+      "tmdb_id": 226362,
+      "poster_path": "/cQkMXPJJw3msAOQIAprJZI0TBGB.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 62363,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-cien-anos-de-soledad": {
+      "datei": "covers/serie-cien-anos-de-soledad.jpg",
+      "art": "serie",
+      "titel": "Hundert Jahre Einsamkeit",
+      "tmdb_id": 207333,
+      "poster_path": "/3VRa9ZM0wq2vhdMGZ1Z3UpZDkXm.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 73581,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-slow-horses": {
+      "datei": "covers/serie-slow-horses.jpg",
+      "art": "serie",
+      "titel": "Slow Horses – Ein Fall für Jackson Lamb",
+      "tmdb_id": 95480,
+      "poster_path": "/iGlInaVyhWQm3whmikpLHivO1Wd.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 52100,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-fallout": {
+      "datei": "covers/serie-fallout.jpg",
+      "art": "serie",
+      "titel": "Fallout",
+      "tmdb_id": 106379,
+      "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 40198,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-the-white-lotus": {
+      "datei": "covers/serie-the-white-lotus.jpg",
+      "art": "serie",
+      "titel": "The White Lotus",
+      "tmdb_id": 111803,
+      "poster_path": "/vlsRYmZUQwzQSZohIqg1b7iDDIA.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 66195,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-wednesday": {
+      "datei": "covers/serie-wednesday.jpg",
+      "art": "serie",
+      "titel": "Wednesday",
+      "tmdb_id": 119051,
+      "poster_path": "/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 56401,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-only-murders-in-the-building": {
+      "datei": "covers/serie-only-murders-in-the-building.jpg",
+      "art": "serie",
+      "titel": "Only Murders in the Building",
+      "tmdb_id": 107113,
+      "poster_path": "/1yjFVQZuW8aofZ5Cgol8iImsVFp.jpg",
+      "gefunden_ueber": "Titelsuche",
+      "bytes": 64567,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-baby-reindeer": {
+      "datei": "covers/serie-baby-reindeer.jpg",
+      "art": "serie",
+      "titel": "Baby Reindeer",
+      "tmdb_id": 241259,
+      "poster_path": "/mMpgnCEkepZMqQQJLsOdReO277Z.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 46223,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-ripley": {
+      "datei": "covers/serie-ripley.jpg",
+      "art": "serie",
+      "titel": "Ripley",
+      "tmdb_id": 94028,
+      "poster_path": "/rpSo8z9alultGVTqQ3dkLEyU8xx.jpg",
+      "gefunden_ueber": "Titelsuche",
+      "bytes": 55023,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-andor": {
+      "datei": "covers/serie-andor.jpg",
+      "art": "serie",
+      "titel": "Andor",
+      "tmdb_id": 83867,
+      "poster_path": "/wsHzbJ9s00KjfIhYGy8KMAGyDB0.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 71748,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-house-of-the-dragon": {
+      "datei": "covers/serie-house-of-the-dragon.jpg",
+      "art": "serie",
+      "titel": "House of the Dragon",
+      "tmdb_id": 94997,
+      "poster_path": "/7V0Ebks0GgpKvQ7QbLAIdX5dos4.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 57610,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-maxton-hall": {
+      "datei": "covers/serie-maxton-hall.jpg",
+      "art": "serie",
+      "titel": "Maxton Hall – Die Welt zwischen uns",
+      "tmdb_id": 250670,
+      "poster_path": "/mHmuHBEKJ8muABCzhAUd8g3WHVK.jpg",
+      "gefunden_ueber": "Titelsuche",
+      "bytes": 60831,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-kleo": {
+      "datei": "covers/serie-kleo.jpg",
+      "art": "serie",
+      "titel": "Kleo",
+      "tmdb_id": 206010,
+      "poster_path": "/2ahFUJPV6eBah5YqB0eNx5XTHei.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 55708,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-dark": {
+      "datei": "covers/serie-dark.jpg",
+      "art": "serie",
+      "titel": "Dark",
+      "tmdb_id": 70523,
+      "poster_path": "/wiiyc3m6HKaQhFBYeuM7ySCNQsG.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 91383,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-pachinko": {
+      "datei": "covers/serie-pachinko.jpg",
+      "art": "serie",
+      "titel": "Pachinko – Ein einfaches Leben",
+      "tmdb_id": 77493,
+      "poster_path": "/s3NOaMERvhLD88SLKYRUs7HmM1i.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 49114,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-the-diplomat": {
+      "datei": "covers/serie-the-diplomat.jpg",
+      "art": "serie",
+      "titel": "The Diplomat",
+      "tmdb_id": 203857,
+      "poster_path": "/fCwb0wwCegzGZOZK0YYYgbPZAlF.jpg",
+      "gefunden_ueber": "Titelsuche",
+      "bytes": 55309,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-ted-lasso": {
+      "datei": "covers/serie-ted-lasso.jpg",
+      "art": "serie",
+      "titel": "Ted Lasso",
+      "tmdb_id": 97546,
+      "poster_path": "/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 52839,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-3-body-problem": {
+      "datei": "covers/serie-3-body-problem.jpg",
+      "art": "serie",
+      "titel": "3 Body Problem",
+      "tmdb_id": 108545,
+      "poster_path": "/ykZ7hlShkdRQaL2aiieXdEMmrLb.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 41168,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-reacher": {
+      "datei": "covers/serie-reacher.jpg",
+      "art": "serie",
+      "titel": "Reacher",
+      "tmdb_id": 108978,
+      "poster_path": "/n5qHxX9OybwH5EFfa5DEeXKFCCQ.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 48784,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-silo": {
+      "datei": "covers/serie-silo.jpg",
+      "art": "serie",
+      "titel": "Silo",
+      "tmdb_id": 125988,
+      "poster_path": "/pAxeLxVzeCTqJhvYPPdNDhMsHcI.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 47934,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-ozark": {
+      "datei": "covers/serie-ozark.jpg",
+      "art": "serie",
+      "titel": "Ozark",
+      "tmdb_id": 69740,
+      "poster_path": "/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 47581,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-berlin": {
+      "datei": "covers/serie-berlin.jpg",
+      "art": "serie",
+      "titel": "Berlin",
+      "tmdb_id": 146176,
+      "poster_path": "/dSLDwpTl6nRAJNV0ErjfpTDU0wL.jpg",
+      "gefunden_ueber": "Titelsuche",
+      "bytes": 54464,
+      "geholt_am": "2026-09-22"
+    },
+    "serie-der-schwarm": {
+      "datei": "covers/serie-der-schwarm.jpg",
+      "art": "serie",
+      "titel": "Der Schwarm",
+      "tmdb_id": 243578,
+      "poster_path": "/3olbygqciJWMaTnc5CzpZfoV1wY.jpg",
+      "gefunden_ueber": "imdb_id",
+      "bytes": 64292,
+      "geholt_am": "2026-09-22"
+    }
+  }
+}
