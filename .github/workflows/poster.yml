@@ -1,0 +1,39 @@
+name: Poster holen
+
+# Laeuft auf GitHubs Rechnern - die haben freies Internet und kommen an TMDb heran.
+on:
+  workflow_dispatch:          # Knopf im Reiter "Actions"
+  schedule:
+    - cron: "17 4 * * 1"      # montags 04:17 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  poster:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install --quiet pillow
+
+      - name: Poster holen und verkleinern
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python tools/fetch_posters.py
+
+      - name: Aenderungen zuruecklegen
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nichts geaendert."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add covers
+          git commit -m "Poster aktualisiert ($(date -u +%Y-%m-%d))"
+          git push
