@@ -727,10 +727,10 @@
       "datei": "covers/serie-pachinko.jpg",
       "art": "serie",
       "titel": "Pachinko – Ein einfaches Leben",
-      "tmdb_id": 77493,
-      "poster_path": "/s3NOaMERvhLD88SLKYRUs7HmM1i.jpg",
-      "gefunden_ueber": "imdb_id",
-      "bytes": 49114,
+      "tmdb_id": 110382,
+      "poster_path": "/cJ9gYs1lMpTwjxbKLH5iHG4RNld.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 54344,
       "geholt_am": "2026-09-22"
     },
     "serie-the-diplomat": {
@@ -807,10 +807,10 @@
       "datei": "covers/serie-der-schwarm.jpg",
       "art": "serie",
       "titel": "Der Schwarm",
-      "tmdb_id": 243578,
-      "poster_path": "/3olbygqciJWMaTnc5CzpZfoV1wY.jpg",
-      "gefunden_ueber": "imdb_id",
-      "bytes": 64292,
+      "tmdb_id": 211240,
+      "poster_path": "/6n06DWAkLMt52F6Ui1aWjuLUnKB.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 52425,
       "geholt_am": "2026-09-22"
     }
   }
