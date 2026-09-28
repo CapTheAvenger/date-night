@@ -1,6 +1,6 @@
 {
   "hinweis": "Poster von TMDb (themoviedb.org). Dieses Projekt ist privat und wird nicht von TMDb unterstuetzt oder zertifiziert.",
-  "stand": "2026-09-22",
+  "stand": "2026-09-28",
   "anzahl": 81,
   "cover": {
     "film-inception": {
@@ -778,10 +778,10 @@
       "art": "serie",
       "titel": "Silo",
       "tmdb_id": 125988,
-      "poster_path": "/pAxeLxVzeCTqJhvYPPdNDhMsHcI.jpg",
-      "gefunden_ueber": "imdb_id",
-      "bytes": 47934,
-      "geholt_am": "2026-09-22"
+      "poster_path": "/8MnXpwNOSuLRmeqhglmOLn1TVjj.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 56276,
+      "geholt_am": "2026-09-28"
     },
     "serie-ozark": {
       "datei": "covers/serie-ozark.jpg",
