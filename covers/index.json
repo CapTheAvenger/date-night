@@ -1,6 +1,6 @@
 {
   "hinweis": "Poster von TMDb (themoviedb.org). Dieses Projekt ist privat und wird nicht von TMDb unterstuetzt oder zertifiziert.",
-  "stand": "2026-09-28",
+  "stand": "2026-10-05",
   "anzahl": 81,
   "cover": {
     "film-inception": {
@@ -448,10 +448,10 @@
       "art": "film",
       "titel": "Project Hail Mary",
       "tmdb_id": 687163,
-      "poster_path": "/1hJdqwEDES96CRZCaiOVuqWLJFX.jpg",
-      "gefunden_ueber": "imdb_id",
-      "bytes": 56653,
-      "geholt_am": "2026-09-22"
+      "poster_path": "/qUraey7aJVaqx6NhlXl5Q7Z1rEX.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 46661,
+      "geholt_am": "2026-10-05"
     },
     "tmp:the-odyssey-2026": {
       "datei": "covers/tmp_the-odyssey-2026.jpg",
@@ -468,10 +468,10 @@
       "art": "film",
       "titel": "Spider-Man: Brand New Day",
       "tmdb_id": 969681,
-      "poster_path": "/mFD3aitQ9rVM6u01xWDL2vYCKLE.jpg",
-      "gefunden_ueber": "Titelsuche",
-      "bytes": 56195,
-      "geholt_am": "2026-09-22"
+      "poster_path": "/h2R2dPbIyjxXorGL6V8Mau01hJy.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 57964,
+      "geholt_am": "2026-10-05"
     },
     "tmp:toy-story-5-2026": {
       "datei": "covers/tmp_toy-story-5-2026.jpg",
