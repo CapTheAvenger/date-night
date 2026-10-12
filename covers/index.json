@@ -1,6 +1,6 @@
 {
   "hinweis": "Poster von TMDb (themoviedb.org). Dieses Projekt ist privat und wird nicht von TMDb unterstuetzt oder zertifiziert.",
-  "stand": "2026-10-05",
+  "stand": "2026-10-12",
   "anzahl": 81,
   "cover": {
     "film-inception": {
@@ -468,10 +468,10 @@
       "art": "film",
       "titel": "Spider-Man: Brand New Day",
       "tmdb_id": 969681,
-      "poster_path": "/h2R2dPbIyjxXorGL6V8Mau01hJy.jpg",
+      "poster_path": "/xT3lJ57sQ13iHDIDC01wt6P7YL2.jpg",
       "gefunden_ueber": "tmdb_id",
-      "bytes": 57964,
-      "geholt_am": "2026-10-05"
+      "bytes": 65036,
+      "geholt_am": "2026-10-12"
     },
     "tmp:toy-story-5-2026": {
       "datei": "covers/tmp_toy-story-5-2026.jpg",
