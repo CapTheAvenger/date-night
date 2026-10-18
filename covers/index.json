@@ -1,7 +1,7 @@
 {
   "hinweis": "Poster von TMDb (themoviedb.org). Dieses Projekt ist privat und wird nicht von TMDb unterstuetzt oder zertifiziert.",
-  "stand": "2026-10-12",
-  "anzahl": 81,
+  "stand": "2026-10-18",
+  "anzahl": 122,
   "cover": {
     "film-inception": {
       "datei": "covers/film-inception.jpg",
@@ -812,6 +812,416 @@
       "gefunden_ueber": "tmdb_id",
       "bytes": 52425,
       "geholt_am": "2026-09-22"
+    },
+    "tmp:alles-steht-kopf-2015": {
+      "datei": "covers/tmp_alles-steht-kopf-2015.jpg",
+      "art": "film",
+      "titel": "Alles steht Kopf",
+      "tmdb_id": 150540,
+      "poster_path": "/3VIIECdikqFTMCkcZey8gt1xegx.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 40175,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:my-girl-meine-erste-liebe-1991": {
+      "datei": "covers/tmp_my-girl-meine-erste-liebe-1991.jpg",
+      "art": "film",
+      "titel": "My Girl – Meine erste Liebe",
+      "tmdb_id": 4032,
+      "poster_path": "/tugd1lPjjrnSmnHWcMpLCmuSNhy.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 39280,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:findet-nemo-2003": {
+      "datei": "covers/tmp_findet-nemo-2003.jpg",
+      "art": "film",
+      "titel": "Findet Nemo",
+      "tmdb_id": 12,
+      "poster_path": "/39h2Zr5j4E6VWlm1enBGba25FFU.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 57720,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:der-koenig-der-loewen-1994": {
+      "datei": "covers/tmp_der-koenig-der-loewen-1994.jpg",
+      "art": "film",
+      "titel": "Der König der Löwen",
+      "tmdb_id": 8587,
+      "poster_path": "/2yiOlsfujLV3uiMd0VbbT8QBHFX.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 47519,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:luca-2021": {
+      "datei": "covers/tmp_luca-2021.jpg",
+      "art": "film",
+      "titel": "Luca",
+      "tmdb_id": 508943,
+      "poster_path": "/zVSIHRDozxYRWFV0o3b4qm8BxzI.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 66598,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:paddington-2014": {
+      "datei": "covers/tmp_paddington-2014.jpg",
+      "art": "film",
+      "titel": "Paddington",
+      "tmdb_id": 116149,
+      "poster_path": "/rbkTRrKmjUPCVNXGDp2u2OGKX8n.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 69689,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:ratatouille-2007": {
+      "datei": "covers/tmp_ratatouille-2007.jpg",
+      "art": "film",
+      "titel": "Ratatouille",
+      "tmdb_id": 2062,
+      "poster_path": "/wZJ47VJJPS4dCouXx2M0YU3lvAS.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 71014,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:vaiana-2016": {
+      "datei": "covers/tmp_vaiana-2016.jpg",
+      "art": "film",
+      "titel": "Vaiana",
+      "tmdb_id": 277834,
+      "poster_path": "/sVjrLK5upwP4o1aGK5ihl9I92nJ.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 72408,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:kevin-allein-zu-haus-1990": {
+      "datei": "covers/tmp_kevin-allein-zu-haus-1990.jpg",
+      "art": "film",
+      "titel": "Kevin – Allein zu Haus",
+      "tmdb_id": 771,
+      "poster_path": "/8PuMnVXP1l0mDh5b7CeHESodMjT.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 61083,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:zoomania-2016": {
+      "datei": "covers/tmp_zoomania-2016.jpg",
+      "art": "film",
+      "titel": "Zoomania",
+      "tmdb_id": 269149,
+      "poster_path": "/e3ustk4Ror6UFqijsEoBxsKzSy2.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 74846,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:coco-lebendiger-als-das-leben-2017": {
+      "datei": "covers/tmp_coco-lebendiger-als-das-leben-2017.jpg",
+      "art": "film",
+      "titel": "Coco – Lebendiger als das Leben!",
+      "tmdb_id": 354912,
+      "poster_path": "/x7YxGQGItXaLzl5eQNqGo0837fs.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 78983,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:oben-2009": {
+      "datei": "covers/tmp_oben-2009.jpg",
+      "art": "film",
+      "titel": "Oben",
+      "tmdb_id": 14160,
+      "poster_path": "/gOOVHWgBmpoeYXG9tGFiNOLsSWl.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 61597,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:wunder-2017": {
+      "datei": "covers/tmp_wunder-2017.jpg",
+      "art": "film",
+      "titel": "Wunder",
+      "tmdb_id": 406997,
+      "poster_path": "/aFnWohbSYgp3ZxOdRMB4sQwP5qJ.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 63627,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:der-junge-der-den-wind-einfing-2019": {
+      "datei": "covers/tmp_der-junge-der-den-wind-einfing-2019.jpg",
+      "art": "film",
+      "titel": "Der Junge, der den Wind einfing",
+      "tmdb_id": 491480,
+      "poster_path": "/kNrVEVrfhvaMEk1MHx1V71m2GqI.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 52081,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:wall-e-der-letzte-raeumt-die-erde-auf-2008": {
+      "datei": "covers/tmp_wall-e-der-letzte-raeumt-die-erde-auf-2008.jpg",
+      "art": "film",
+      "titel": "WALL·E – Der Letzte räumt die Erde auf",
+      "tmdb_id": 10681,
+      "poster_path": "/TPClTvyD4a8DGz7sD8si6x7QqB.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 59549,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:der-kleine-prinz-2015": {
+      "datei": "covers/tmp_der-kleine-prinz-2015.jpg",
+      "art": "film",
+      "titel": "Der kleine Prinz",
+      "tmdb_id": 309809,
+      "poster_path": "/zeOdhTG5vcy4BqWjHFVJKVuhVuZ.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 53600,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:mr-poppers-pinguine-2011": {
+      "datei": "covers/tmp_mr-poppers-pinguine-2011.jpg",
+      "art": "film",
+      "titel": "Mr. Poppers Pinguine",
+      "tmdb_id": 58224,
+      "poster_path": "/fOeVMz98QlAv2ZOPhWd9Ya7a7eL.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 48971,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:die-monster-ag-2001": {
+      "datei": "covers/tmp_die-monster-ag-2001.jpg",
+      "art": "film",
+      "titel": "Die Monster AG",
+      "tmdb_id": 585,
+      "poster_path": "/5QEIlVzqltjncOpAcL55U3fbWDo.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 46080,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:antarctica-gefangen-im-eis-2006": {
+      "datei": "covers/tmp_antarctica-gefangen-im-eis-2006.jpg",
+      "art": "film",
+      "titel": "Antarctica – Gefangen im Eis",
+      "tmdb_id": 9036,
+      "poster_path": "/1UuEh9OTVZ7m0gKiLa2gAdwd0NW.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 58567,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:bolt-ein-hund-fuer-alle-faelle-2008": {
+      "datei": "covers/tmp_bolt-ein-hund-fuer-alle-faelle-2008.jpg",
+      "art": "film",
+      "titel": "Bolt – Ein Hund für alle Fälle",
+      "tmdb_id": 13053,
+      "poster_path": "/4safCKbRhhEW83OmUrEyXwXybJn.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 35109,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:der-marsianer-rettet-mark-watney-2015": {
+      "datei": "covers/tmp_der-marsianer-rettet-mark-watney-2015.jpg",
+      "art": "film",
+      "titel": "Der Marsianer – Rettet Mark Watney",
+      "tmdb_id": 286217,
+      "poster_path": "/jT271Hccu0vqoCJkhXpyqRBwbiC.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 57662,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:e-t-der-ausserirdische-1982": {
+      "datei": "covers/tmp_e-t-der-ausserirdische-1982.jpg",
+      "art": "film",
+      "titel": "E.T. – Der Außerirdische",
+      "tmdb_id": 601,
+      "poster_path": "/mNbBxa6pNxr4tmOQTGzj9eBuivZ.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 42893,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:zurueck-in-die-zukunft-1985": {
+      "datei": "covers/tmp_zurueck-in-die-zukunft-1985.jpg",
+      "art": "film",
+      "titel": "Zurück in die Zukunft",
+      "tmdb_id": 105,
+      "poster_path": "/i9cmMivQ8cgTYUjfrzznsFJ0GYg.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 57544,
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:die-letzten-gluehwuermchen-1988": {
+      "datei": "covers/tmp_die-letzten-gluehwuermchen-1988.jpg",
+      "art": "film",
+      "titel": "Die letzten Glühwürmchen",
+      "tmdb_id": 12477,
+      "poster_path": "/kyDMWzQ28LvGh165vx1tyhZ7v4G.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 47183,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-lenas-hof": {
+      "datei": "covers/serie-lenas-hof.jpg",
+      "art": "serie",
+      "titel": "Lenas Hof",
+      "tmdb_id": 116552,
+      "poster_path": "/hvjZtzGftKUhMViWy1aX3FAtqnq.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 43914,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-lauras-stern": {
+      "datei": "covers/serie-lauras-stern.jpg",
+      "art": "serie",
+      "titel": "Lauras Stern",
+      "tmdb_id": 40625,
+      "poster_path": "/7u6qhxqPM4LOAOX3bMG8w09PuPN.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 50005,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-benjamin-bluemchen": {
+      "datei": "covers/serie-benjamin-bluemchen.jpg",
+      "art": "serie",
+      "titel": "Benjamin Blümchen",
+      "tmdb_id": 62702,
+      "poster_path": "/r24V2PULG3BWpFGWR8FgD1OfE0U.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 57346,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-oonas-und-babas-insel": {
+      "datei": "covers/serie-oonas-und-babas-insel.jpg",
+      "art": "serie",
+      "titel": "Oonas und Babas Insel",
+      "tmdb_id": 69926,
+      "poster_path": "/8ZYTNkpubnG8epqlJLjaWbbO30R.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 39819,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-mue-mo-das-muellmobil": {
+      "datei": "covers/serie-mue-mo-das-muellmobil.jpg",
+      "art": "serie",
+      "titel": "Mü-Mo – das Müllmobil",
+      "tmdb_id": 112442,
+      "poster_path": "/5uY9N0H4m0HCHaOJTgkD4Mz5g2f.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 52680,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-die-gummibaerenbande": {
+      "datei": "covers/serie-die-gummibaerenbande.jpg",
+      "art": "serie",
+      "titel": "Die Gummibärenbande",
+      "tmdb_id": 1931,
+      "poster_path": "/asb9Asa9ZnSjXDR5QjJGTPVSgTR.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 45724,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-kaeptn-balu-und-seine-tollkuehne-crew": {
+      "datei": "covers/serie-kaeptn-balu-und-seine-tollkuehne-crew.jpg",
+      "art": "serie",
+      "titel": "Käpt’n Balu und seine tollkühne Crew",
+      "tmdb_id": 2720,
+      "poster_path": "/6I8FLpll98QyQ23Yr8JGtrqhau2.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 69873,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-disneys-grosse-pause": {
+      "datei": "covers/serie-disneys-grosse-pause.jpg",
+      "art": "serie",
+      "titel": "Disneys Große Pause",
+      "tmdb_id": 1546,
+      "poster_path": "/4n8Li264hmiOSSHowA1s8PsmXkj.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 43587,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-detektiv-conan": {
+      "datei": "covers/serie-detektiv-conan.jpg",
+      "art": "serie",
+      "titel": "Detektiv Conan",
+      "tmdb_id": 30983,
+      "poster_path": "/1IfcpJRkSUnXbzy2ZVjHtxtqtdL.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 65538,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-weihnachtsmann-co-kg": {
+      "datei": "covers/serie-weihnachtsmann-co-kg.jpg",
+      "art": "serie",
+      "titel": "Weihnachtsmann & Co. KG",
+      "tmdb_id": 13407,
+      "poster_path": "/vn8AlrFdHMbmLN3OU6oCTIvOwKl.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 77714,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-der-kleine-baer": {
+      "datei": "covers/serie-der-kleine-baer.jpg",
+      "art": "serie",
+      "titel": "Der kleine Bär",
+      "tmdb_id": 9834,
+      "poster_path": "/bLm7pkUAoi2AGsnPXrPnZ3ErlKs.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 46953,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-franklin": {
+      "datei": "covers/serie-franklin.jpg",
+      "art": "serie",
+      "titel": "Franklin",
+      "tmdb_id": 1458,
+      "poster_path": "/ep0ol2okz8IB8T0LxhfJMXvJ3Mk.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 69948,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-peter-hase-und-seine-freunde": {
+      "datei": "covers/serie-peter-hase-und-seine-freunde.jpg",
+      "art": "serie",
+      "titel": "Peter Hase und seine Freunde",
+      "tmdb_id": 10817,
+      "poster_path": "/tji54kBnBhcaraT0sVr2wwRP11Y.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 62649,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-tabaluga": {
+      "datei": "covers/serie-tabaluga.jpg",
+      "art": "serie",
+      "titel": "Tabaluga",
+      "tmdb_id": 47424,
+      "poster_path": "/e7BKxTucnB1TckV2naCdpPC8JVF.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 60362,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-die-sendung-mit-der-maus": {
+      "datei": "covers/serie-die-sendung-mit-der-maus.jpg",
+      "art": "serie",
+      "titel": "Die Sendung mit der Maus",
+      "tmdb_id": 13819,
+      "poster_path": "/9rAaWmsUUBPTJWYM0Ze7yl5l4N8.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 42851,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-es-war-einmal-das-leben": {
+      "datei": "covers/serie-es-war-einmal-das-leben.jpg",
+      "art": "serie",
+      "titel": "Es war einmal... das Leben",
+      "tmdb_id": 2632,
+      "poster_path": "/6R1r4HV2DE1OsqU3kS67mIlpzSU.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 58648,
+      "geholt_am": "2026-10-18"
+    },
+    "serie-der-zauberschulbus": {
+      "datei": "covers/serie-der-zauberschulbus.jpg",
+      "art": "serie",
+      "titel": "Der Zauberschulbus",
+      "tmdb_id": 7248,
+      "poster_path": "/3A70wxUpplD4V3IcL8WmNFBgAbV.jpg",
+      "gefunden_ueber": "tmdb_id",
+      "bytes": 44141,
+      "geholt_am": "2026-10-18"
     }
   }
 }

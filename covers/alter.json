@@ -1,0 +1,959 @@
+{
+  "hinweis": "Deutsche Altersfreigaben laut TMDb (themoviedb.org), Felder release_dates bzw. content_ratings fuer DE. Von der Gemeinschaft gepflegt, daher nicht amtlich. Nichts abgeleitet, nichts geraten.",
+  "stand": "2026-10-18",
+  "anzahl": 118,
+  "freigaben": {
+    "film-inception": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 27205,
+      "art": "film",
+      "titel": "Inception",
+      "geholt_am": "2026-10-18"
+    },
+    "film-avengers-endgame": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 299534,
+      "art": "film",
+      "titel": "Avengers: Endgame",
+      "geholt_am": "2026-10-18"
+    },
+    "tt15239678": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 693134,
+      "art": "film",
+      "titel": "Dune: Part Two",
+      "geholt_am": "2026-10-18"
+    },
+    "tt10288566": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 580175,
+      "art": "film",
+      "titel": "Der Rausch",
+      "geholt_am": "2026-10-18"
+    },
+    "tt5363618": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 502033,
+      "art": "film",
+      "titel": "Sound of Metal",
+      "geholt_am": "2026-10-18"
+    },
+    "tt9770150": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 581734,
+      "art": "film",
+      "titel": "Nomadland",
+      "geholt_am": "2026-10-18"
+    },
+    "tt2948372": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 508442,
+      "art": "film",
+      "titel": "Soul",
+      "geholt_am": "2026-10-18"
+    },
+    "tt7126948": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 464052,
+      "art": "film",
+      "titel": "Wonder Woman 1984",
+      "geholt_am": "2026-10-18"
+    },
+    "tt1070874": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 556984,
+      "art": "film",
+      "titel": "Der Prozess gegen die Chicago 7",
+      "geholt_am": "2026-10-18"
+    },
+    "tt10872600": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 634649,
+      "art": "film",
+      "titel": "Spider-Man: No Way Home",
+      "geholt_am": "2026-10-18"
+    },
+    "tt1160419": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 438631,
+      "art": "film",
+      "titel": "Dune",
+      "geholt_am": "2026-10-18"
+    },
+    "tt2953050": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 568124,
+      "art": "film",
+      "titel": "Encanto",
+      "geholt_am": "2026-10-18"
+    },
+    "tt2382320": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 370172,
+      "art": "film",
+      "titel": "No Time to Die",
+      "geholt_am": "2026-10-18"
+    },
+    "tt9376612": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 566525,
+      "art": "film",
+      "titel": "Shang-Chi and the Legend of the Ten Rings",
+      "geholt_am": "2026-10-18"
+    },
+    "tt8721424": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 537116,
+      "art": "film",
+      "titel": "tick, tick… BOOM!",
+      "geholt_am": "2026-10-18"
+    },
+    "tt9639470": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 576845,
+      "art": "film",
+      "titel": "Last Night in Soho",
+      "geholt_am": "2026-10-18"
+    },
+    "tt1745960": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 361743,
+      "art": "film",
+      "titel": "Top Gun: Maverick",
+      "geholt_am": "2026-10-18"
+    },
+    "tt6710474": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 545611,
+      "art": "film",
+      "titel": "Everything Everywhere All at Once",
+      "geholt_am": "2026-10-18"
+    },
+    "tt1016150": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 49046,
+      "art": "film",
+      "titel": "Im Westen nichts Neues",
+      "geholt_am": "2026-10-18"
+    },
+    "tt1877830": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 414906,
+      "art": "film",
+      "titel": "The Batman",
+      "geholt_am": "2026-10-18"
+    },
+    "tt1488589": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 555604,
+      "art": "film",
+      "titel": "Guillermo del Toros Pinocchio",
+      "geholt_am": "2026-10-18"
+    },
+    "tt13833688": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 785084,
+      "art": "film",
+      "titel": "The Whale",
+      "geholt_am": "2026-10-18"
+    },
+    "tt1630029": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 76600,
+      "art": "film",
+      "titel": "Avatar: The Way of Water",
+      "geholt_am": "2026-10-18"
+    },
+    "tt15398776": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 872585,
+      "art": "film",
+      "titel": "Oppenheimer",
+      "geholt_am": "2026-10-18"
+    },
+    "tt9362722": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 569094,
+      "art": "film",
+      "titel": "Spider-Man: Across the Spider-Verse",
+      "geholt_am": "2026-10-18"
+    },
+    "tt23289160": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 940721,
+      "art": "film",
+      "titel": "Godzilla Minus One",
+      "geholt_am": "2026-10-18"
+    },
+    "tt16277242": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 906126,
+      "art": "film",
+      "titel": "La sociedad de la nieve",
+      "geholt_am": "2026-10-18"
+    },
+    "tt10366206": {
+      "fsk": 18,
+      "roh": "18",
+      "tmdb_id": 603692,
+      "art": "film",
+      "titel": "John Wick: Kapitel 4",
+      "geholt_am": "2026-10-18"
+    },
+    "tt1517268": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 346698,
+      "art": "film",
+      "titel": "Barbie",
+      "geholt_am": "2026-10-18"
+    },
+    "tt9603212": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 575264,
+      "art": "film",
+      "titel": "Mission: Impossible – Dead Reckoning Teil Eins",
+      "geholt_am": "2026-10-18"
+    },
+    "tt29623480": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 1184918,
+      "art": "film",
+      "titel": "Der wilde Roboter",
+      "geholt_am": "2026-10-18"
+    },
+    "tt22022452": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 1022789,
+      "art": "film",
+      "titel": "Alles steht Kopf 2",
+      "geholt_am": "2026-10-18"
+    },
+    "tt6263850": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 533535,
+      "art": "film",
+      "titel": "Deadpool & Wolverine",
+      "geholt_am": "2026-10-18"
+    },
+    "tt28607951": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 1064213,
+      "art": "film",
+      "titel": "Anora",
+      "geholt_am": "2026-10-18"
+    },
+    "tt17526714": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 933260,
+      "art": "film",
+      "titel": "The Substance",
+      "geholt_am": "2026-10-18"
+    },
+    "tt1262426": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 402431,
+      "art": "film",
+      "titel": "Wicked",
+      "geholt_am": "2026-10-18"
+    },
+    "tt31193180": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 1233413,
+      "art": "film",
+      "titel": "Sinners",
+      "geholt_am": "2026-10-18"
+    },
+    "tt14205554": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 803796,
+      "art": "film",
+      "titel": "KPop Demon Hunters",
+      "geholt_am": "2026-10-18"
+    },
+    "tt16311594": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 911430,
+      "art": "film",
+      "titel": "F1",
+      "geholt_am": "2026-10-18"
+    },
+    "tt26743210": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 1087192,
+      "art": "film",
+      "titel": "Drachenzähmen leicht gemacht",
+      "geholt_am": "2026-10-18"
+    },
+    "tt30144839": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 1054867,
+      "art": "film",
+      "titel": "One Battle After Another",
+      "geholt_am": "2026-10-18"
+    },
+    "tt9603208": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 575265,
+      "art": "film",
+      "titel": "Mission: Impossible – The Final Reckoning",
+      "geholt_am": "2026-10-18"
+    },
+    "tt26443597": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 1084242,
+      "art": "film",
+      "titel": "Zoomania 2",
+      "geholt_am": "2026-10-18"
+    },
+    "tt1757678": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 83533,
+      "art": "film",
+      "titel": "Avatar: Fire and Ash",
+      "geholt_am": "2026-10-18"
+    },
+    "tt12042730": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 687163,
+      "art": "film",
+      "titel": "Project Hail Mary",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:the-odyssey-2026": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 1368337,
+      "art": "film",
+      "titel": "Die Odyssee",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:spider-man-brand-new-day-2026": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 969681,
+      "art": "film",
+      "titel": "Spider-Man: Brand New Day",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:toy-story-5-2026": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 1084244,
+      "art": "film",
+      "titel": "Toy Story 5",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:28-years-later-the-bone-temple-2026": {
+      "fsk": 18,
+      "roh": "18",
+      "tmdb_id": 1272837,
+      "art": "film",
+      "titel": "28 Years Later: The Bone Temple",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:the-super-mario-galaxy-movie-2026": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 1226863,
+      "art": "film",
+      "titel": "Der Super Mario Galaxy Film",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-breaking-bad": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 1396,
+      "art": "serie",
+      "titel": "Breaking Bad",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-loki": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 84958,
+      "art": "serie",
+      "titel": "Loki",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-the-bear": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 136315,
+      "art": "serie",
+      "titel": "The Bear",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-severance": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 95396,
+      "art": "serie",
+      "titel": "Severance – Die Trennung",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-shogun": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 126308,
+      "art": "serie",
+      "titel": "Shōgun",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-adolescence": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 249042,
+      "art": "serie",
+      "titel": "Adolescence",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-the-last-of-us": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 100088,
+      "art": "serie",
+      "titel": "The Last of Us",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-squid-game": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 93405,
+      "art": "serie",
+      "titel": "Squid Game",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-el-eternauta": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 226362,
+      "art": "serie",
+      "titel": "Die Legende von El Eternauta",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-cien-anos-de-soledad": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 207333,
+      "art": "serie",
+      "titel": "Hundert Jahre Einsamkeit",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-slow-horses": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 95480,
+      "art": "serie",
+      "titel": "Slow Horses – Ein Fall für Jackson Lamb",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-fallout": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 106379,
+      "art": "serie",
+      "titel": "Fallout",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-the-white-lotus": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 111803,
+      "art": "serie",
+      "titel": "The White Lotus",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-wednesday": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 119051,
+      "art": "serie",
+      "titel": "Wednesday",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-only-murders-in-the-building": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 107113,
+      "art": "serie",
+      "titel": "Only Murders in the Building",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-baby-reindeer": {
+      "fsk": 18,
+      "roh": "18",
+      "tmdb_id": 241259,
+      "art": "serie",
+      "titel": "Baby Reindeer",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-ripley": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 94028,
+      "art": "serie",
+      "titel": "Ripley",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-andor": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 83867,
+      "art": "serie",
+      "titel": "Andor",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-house-of-the-dragon": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 94997,
+      "art": "serie",
+      "titel": "House of the Dragon",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-maxton-hall": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 250670,
+      "art": "serie",
+      "titel": "Maxton Hall – Die Welt zwischen uns",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-kleo": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 206010,
+      "art": "serie",
+      "titel": "Kleo",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-dark": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 70523,
+      "art": "serie",
+      "titel": "Dark",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-pachinko": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 110382,
+      "art": "serie",
+      "titel": "Pachinko – Ein einfaches Leben",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-the-diplomat": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 203857,
+      "art": "serie",
+      "titel": "The Diplomat",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-ted-lasso": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 97546,
+      "art": "serie",
+      "titel": "Ted Lasso",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-3-body-problem": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 108545,
+      "art": "serie",
+      "titel": "3 Body Problem",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-reacher": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 108978,
+      "art": "serie",
+      "titel": "Reacher",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-silo": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 125988,
+      "art": "serie",
+      "titel": "Silo",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-ozark": {
+      "fsk": 16,
+      "roh": "16",
+      "tmdb_id": 69740,
+      "art": "serie",
+      "titel": "Ozark",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-berlin": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 146176,
+      "art": "serie",
+      "titel": "Berlin",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-der-schwarm": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 211240,
+      "art": "serie",
+      "titel": "Der Schwarm",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:alles-steht-kopf-2015": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 150540,
+      "art": "film",
+      "titel": "Alles steht Kopf",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:my-girl-meine-erste-liebe-1991": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 4032,
+      "art": "film",
+      "titel": "My Girl – Meine erste Liebe",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:findet-nemo-2003": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 12,
+      "art": "film",
+      "titel": "Findet Nemo",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:der-koenig-der-loewen-1994": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 8587,
+      "art": "film",
+      "titel": "Der König der Löwen",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:luca-2021": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 508943,
+      "art": "film",
+      "titel": "Luca",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:paddington-2014": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 116149,
+      "art": "film",
+      "titel": "Paddington",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:ratatouille-2007": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 2062,
+      "art": "film",
+      "titel": "Ratatouille",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:vaiana-2016": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 277834,
+      "art": "film",
+      "titel": "Vaiana",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:kevin-allein-zu-haus-1990": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 771,
+      "art": "film",
+      "titel": "Kevin – Allein zu Haus",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:zoomania-2016": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 269149,
+      "art": "film",
+      "titel": "Zoomania",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:coco-lebendiger-als-das-leben-2017": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 354912,
+      "art": "film",
+      "titel": "Coco – Lebendiger als das Leben!",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:oben-2009": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 14160,
+      "art": "film",
+      "titel": "Oben",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:wunder-2017": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 406997,
+      "art": "film",
+      "titel": "Wunder",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:der-junge-der-den-wind-einfing-2019": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 491480,
+      "art": "film",
+      "titel": "Der Junge, der den Wind einfing",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:wall-e-der-letzte-raeumt-die-erde-auf-2008": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 10681,
+      "art": "film",
+      "titel": "WALL·E – Der Letzte räumt die Erde auf",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:der-kleine-prinz-2015": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 309809,
+      "art": "film",
+      "titel": "Der kleine Prinz",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:mr-poppers-pinguine-2011": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 58224,
+      "art": "film",
+      "titel": "Mr. Poppers Pinguine",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:die-monster-ag-2001": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 585,
+      "art": "film",
+      "titel": "Die Monster AG",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:antarctica-gefangen-im-eis-2006": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 9036,
+      "art": "film",
+      "titel": "Antarctica – Gefangen im Eis",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:bolt-ein-hund-fuer-alle-faelle-2008": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 13053,
+      "art": "film",
+      "titel": "Bolt – Ein Hund für alle Fälle",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:der-marsianer-rettet-mark-watney-2015": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 286217,
+      "art": "film",
+      "titel": "Der Marsianer – Rettet Mark Watney",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:e-t-der-ausserirdische-1982": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 601,
+      "art": "film",
+      "titel": "E.T. – Der Außerirdische",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:zurueck-in-die-zukunft-1985": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 105,
+      "art": "film",
+      "titel": "Zurück in die Zukunft",
+      "geholt_am": "2026-10-18"
+    },
+    "tmp:die-letzten-gluehwuermchen-1988": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 12477,
+      "art": "film",
+      "titel": "Die letzten Glühwürmchen",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-lauras-stern": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 40625,
+      "art": "serie",
+      "titel": "Lauras Stern",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-benjamin-bluemchen": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 62702,
+      "art": "serie",
+      "titel": "Benjamin Blümchen",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-mue-mo-das-muellmobil": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 112442,
+      "art": "serie",
+      "titel": "Mü-Mo – das Müllmobil",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-die-gummibaerenbande": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 1931,
+      "art": "serie",
+      "titel": "Die Gummibärenbande",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-kaeptn-balu-und-seine-tollkuehne-crew": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 2720,
+      "art": "serie",
+      "titel": "Käpt’n Balu und seine tollkühne Crew",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-disneys-grosse-pause": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 1546,
+      "art": "serie",
+      "titel": "Disneys Große Pause",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-detektiv-conan": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 30983,
+      "art": "serie",
+      "titel": "Detektiv Conan",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-weihnachtsmann-co-kg": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 13407,
+      "art": "serie",
+      "titel": "Weihnachtsmann & Co. KG",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-der-kleine-baer": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 9834,
+      "art": "serie",
+      "titel": "Der kleine Bär",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-peter-hase-und-seine-freunde": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 10817,
+      "art": "serie",
+      "titel": "Peter Hase und seine Freunde",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-tabaluga": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 47424,
+      "art": "serie",
+      "titel": "Tabaluga",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-die-sendung-mit-der-maus": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 13819,
+      "art": "serie",
+      "titel": "Die Sendung mit der Maus",
+      "geholt_am": "2026-10-18"
+    },
+    "serie-es-war-einmal-das-leben": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 2632,
+      "art": "serie",
+      "titel": "Es war einmal... das Leben",
+      "geholt_am": "2026-10-18"
+    }
+  },
+  "ohne_freigabe": [
+    "Lenas Hof (serie-lenas-hof): keine DE-Angabe",
+    "Kleinreimstadt (serie-kleinreimstadt): keine tmdb_id",
+    "Kito, Maja und die Kugelkiste (serie-kito-maja-und-die-kugelkiste): keine DE-Angabe",
+    "Oonas und Babas Insel (serie-oonas-und-babas-insel): keine DE-Angabe",
+    "Franklin (serie-franklin): keine DE-Angabe",
+    "Der Zauberschulbus (serie-der-zauberschulbus): keine DE-Angabe"
+  ]
+}
