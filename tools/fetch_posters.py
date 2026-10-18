@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Holt Poster von TMDb und legt sie als kleine JPEGs unter covers/ ab.
+"""Holt Poster und deutsche Altersfreigaben von TMDb.
+
+Poster landen als kleine JPEGs unter covers/, die Freigaben in covers/alter.json.
 
 Liest data/titles.json (nur Titel und Kennungen, keine persoenlichen Daten)
 und laeuft in einer GitHub Action, weil diese Umgebung freies Internet hat.
@@ -91,6 +93,39 @@ def finde(eintrag, art):
     return None, None, "kein Poster gefunden"
 
 
+FREIGABEN = {"0": 0, "6": 6, "12": 12, "16": 16, "18": 18}
+
+
+def freigabe(tmdb_id, art):
+    """Deutsche Altersfreigabe von TMDb. Rueckgabe: (wert, rohtext) oder (None, Grund).
+
+    Es wird nichts abgeleitet: nur genau die Angabe fuer Deutschland zaehlt, und
+    nur wenn sie einer bekannten FSK-Stufe entspricht. Ein US-Rating wird NICHT
+    umgerechnet.
+    """
+    if not tmdb_id:
+        return None, "keine tmdb_id"
+    if art == "film":
+        d = hole("/movie/%s/release_dates" % tmdb_id)
+        for e in (d or {}).get("results") or []:
+            if e.get("iso_3166_1") != "DE":
+                continue
+            for r in e.get("release_dates") or []:
+                roh = (r.get("certification") or "").strip()
+                if roh in FREIGABEN:
+                    return FREIGABEN[roh], roh
+            return None, "DE vorhanden, aber ohne Freigabe"
+        return None, "keine DE-Angabe"
+    d = hole("/tv/%s/content_ratings" % tmdb_id)
+    for e in (d or {}).get("results") or []:
+        if e.get("iso_3166_1") == "DE":
+            roh = (e.get("rating") or "").strip()
+            if roh in FREIGABEN:
+                return FREIGABEN[roh], roh
+            return None, "DE-Angabe %r nicht als FSK-Stufe lesbar" % roh
+    return None, "keine DE-Angabe"
+
+
 def lade_bild(poster_path):
     url = BILD + poster_path
     for versuch in range(3):
@@ -118,6 +153,8 @@ def main():
 
     neu = aktualisiert = unveraendert = 0
     offen = []
+    alter = {}
+    ohne_alter = []
 
     quelle = json.loads((DATEN / "titles.json").read_text(encoding="utf-8"))
     for e in quelle["titel"]:
@@ -125,6 +162,15 @@ def main():
         art   = e.get("art")
         titel = e.get("titel") or cid
         tid, ppath, wie = finde(e, art)
+
+        # Die Altersfreigabe haengt nur an der tmdb_id, nicht am Poster
+        a_id = e.get("tmdb_id") or tid
+        wert, roh = freigabe(a_id, art)
+        if wert is None:
+            ohne_alter.append("%s (%s): %s" % (titel, cid, roh))
+        else:
+            alter[cid] = {"fsk": wert, "roh": roh, "tmdb_id": a_id, "art": art,
+                          "titel": titel, "geholt_am": time.strftime("%Y-%m-%d")}
         if not ppath:
             offen.append("%s (%s): %s" % (titel, cid, wie))
             print("  - %-52s %s" % (titel[:52], wie)); continue
@@ -163,6 +209,17 @@ def main():
         "cover": index,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    (COVERS / "alter.json").write_text(json.dumps({
+        "hinweis": "Deutsche Altersfreigaben laut TMDb (themoviedb.org), Felder "
+                   "release_dates bzw. content_ratings fuer DE. Von der Gemeinschaft "
+                   "gepflegt, daher nicht amtlich. Nichts abgeleitet, nichts geraten.",
+        "stand": time.strftime("%Y-%m-%d"),
+        "anzahl": len(alter),
+        "freigaben": alter,
+        "ohne_freigabe": ohne_alter,
+    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    print("\nAltersfreigaben: %d gefunden, %d offen" % (len(alter), len(ohne_alter)))
     print("\nneu %d | aktualisiert %d | unveraendert %d | ohne Poster %d"
           % (neu, aktualisiert, unveraendert, len(offen)))
     if offen:
@@ -175,6 +232,11 @@ def main():
             f.write("## Poster-Lauf\n\n")
             f.write("| neu | aktualisiert | unveraendert | ohne Poster |\n|--:|--:|--:|--:|\n")
             f.write("| %d | %d | %d | %d |\n\n" % (neu, aktualisiert, unveraendert, len(offen)))
+            f.write("## Altersfreigaben (DE, laut TMDb)\n\n")
+            f.write("| gefunden | ohne Angabe |\n|--:|--:|\n| %d | %d |\n\n"
+                    % (len(alter), len(ohne_alter)))
+            if ohne_alter:
+                f.write("### Ohne Freigabe\n\n" + "\n".join("- " + z for z in ohne_alter) + "\n")
             if offen:
                 f.write("### Ohne Poster\n\n" + "\n".join("- " + z for z in offen) + "\n")
 
