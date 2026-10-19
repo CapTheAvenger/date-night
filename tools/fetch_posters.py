@@ -48,31 +48,40 @@ def hole(pfad, **params):
 
 
 def dateiname(cid):
-    """IDs koennen Doppelpunkte enthalten (tmp:...) - daraus einen Dateinamen machen."""
+    """IDs koennen Doppelpunkte enthalten (tmp:…) - daraus einen Dateinamen machen."""
     return re.sub(r"[^A-Za-z0-9._-]", "_", str(cid)) + ".jpg"
 
 
+def tmdb_name(d, art):
+    """Titel und Jahr eines TMDb-Datensatzes - nur zum Gegenpruefen."""
+    if not d:
+        return None, None
+    t = d.get("title") or d.get("name") or d.get("original_title") or d.get("original_name")
+    datum = d.get("release_date") or d.get("first_air_date") or ""
+    return t, (int(datum[:4]) if datum[:4].isdigit() else None)
+
+
 def finde(eintrag, art):
-    """Rueckgabe: (tmdb_id, poster_path, wie_gefunden) oder (None, None, Grund)."""
+    """Rueckgabe: (tmdb_id, poster_path, wie_gefunden, (titel, jahr)) bzw. (None, None, Grund, (None, None))."""
     tmdb_typ = "movie" if art == "film" else "tv"
 
     if eintrag.get("tmdb_id"):
         d = hole("/%s/%s" % (tmdb_typ, eintrag["tmdb_id"]), language=SPRACHE)
         if d and d.get("poster_path"):
-            return d["id"], d["poster_path"], "tmdb_id"
+            return d["id"], d["poster_path"], "tmdb_id", tmdb_name(d, art)
 
     if eintrag.get("imdb_id"):
         d = hole("/find/" + eintrag["imdb_id"], external_source="imdb_id", language=SPRACHE)
         if d:
             treffer = (d.get("movie_results") or []) if art == "film" else (d.get("tv_results") or [])
             if treffer and treffer[0].get("poster_path"):
-                return treffer[0]["id"], treffer[0]["poster_path"], "imdb_id"
+                return treffer[0]["id"], treffer[0]["poster_path"], "imdb_id", tmdb_name(treffer[0], art)
 
     # Notloesung: Titelsuche, nur bei eindeutigem Jahrestreffer uebernehmen
     titel = eintrag.get("originaltitel") or eintrag.get("titel")
     jahr  = eintrag.get("jahr")
     if not titel:
-        return None, None, "kein Titel"
+        return None, None, "kein Titel", (None, None)
     p = {"query": titel, "language": SPRACHE, "include_adult": "false"}
     if jahr:
         p["year" if art == "film" else "first_air_date_year"] = jahr
@@ -89,8 +98,8 @@ def finde(eintrag, art):
         datum = t.get("release_date") or t.get("first_air_date") or ""
         if jahr and datum[:4] and abs(int(datum[:4]) - int(jahr)) > 1:
             continue
-        return t["id"], t["poster_path"], "Titelsuche"
-    return None, None, "kein Poster gefunden"
+        return t["id"], t["poster_path"], "Titelsuche", tmdb_name(t, art)
+    return None, None, "kein Poster gefunden", (None, None)
 
 
 FREIGABEN = {"0": 0, "6": 6, "12": 12, "16": 16, "18": 18}
@@ -99,9 +108,9 @@ FREIGABEN = {"0": 0, "6": 6, "12": 12, "16": 16, "18": 18}
 def freigabe(tmdb_id, art):
     """Deutsche Altersfreigabe von TMDb. Rueckgabe: (wert, rohtext) oder (None, Grund).
 
-    Es wird nichts abgeleitet: nur genau die Angabe fuer Deutschland zaehlt, und
-    nur wenn sie einer bekannten FSK-Stufe entspricht. Ein US-Rating wird NICHT
-    umgerechnet.
+    Es wird nichts abgeleitet: nur genau die Angabe fuer Deutschland zaehlt,
+    und nur wenn sie einer bekannten FSK-Stufe entspricht. Ein US-Rating wird
+    NICHT umgerechnet.
     """
     if not tmdb_id:
         return None, "keine tmdb_id"
@@ -161,19 +170,20 @@ def main():
         cid   = e.get("id")
         art   = e.get("art")
         titel = e.get("titel") or cid
-        tid, ppath, wie = finde(e, art)
+        tid, ppath, wie, (t_titel, t_jahr) = finde(e, art)
 
-        # Die Altersfreigabe haengt nur an der tmdb_id, nicht am Poster
+        # Altersfreigabe haengt nur an der tmdb_id, nicht am Poster
         a_id = e.get("tmdb_id") or tid
         wert, roh = freigabe(a_id, art)
         if wert is None:
             ohne_alter.append("%s (%s): %s" % (titel, cid, roh))
         else:
-            alter[cid] = {"fsk": wert, "roh": roh, "tmdb_id": a_id, "art": art,
-                          "titel": titel, "geholt_am": time.strftime("%Y-%m-%d")}
+            alter[cid] = {"fsk": wert, "roh": roh, "tmdb_id": a_id,
+                          "art": art, "titel": titel, "geholt_am": time.strftime("%Y-%m-%d")}
+
         if not ppath:
             offen.append("%s (%s): %s" % (titel, cid, wie))
-            print("  - %-52s %s" % (titel[:52], wie)); continue
+            print("  – %-52s %s" % (titel[:52], wie)); continue
 
         alt = index.get(cid) or {}
         ziel = COVERS / dateiname(cid)
@@ -195,6 +205,10 @@ def main():
             "tmdb_id": tid,
             "poster_path": ppath,
             "gefunden_ueber": wie,
+            "tmdb_titel": t_titel,
+            "tmdb_jahr": t_jahr,
+            "erwartet_titel": e.get("titel"),
+            "erwartet_jahr": e.get("jahr"),
             "bytes": groesse,
             "geholt_am": time.strftime("%Y-%m-%d"),
         }
@@ -210,7 +224,7 @@ def main():
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     (COVERS / "alter.json").write_text(json.dumps({
-        "hinweis": "Deutsche Altersfreigaben laut TMDb (themoviedb.org), Felder "
+        "hinweis": "Deutsche Altersfreigaben laut TMDb (themoviedb.org), Feld "
                    "release_dates bzw. content_ratings fuer DE. Von der Gemeinschaft "
                    "gepflegt, daher nicht amtlich. Nichts abgeleitet, nichts geraten.",
         "stand": time.strftime("%Y-%m-%d"),
