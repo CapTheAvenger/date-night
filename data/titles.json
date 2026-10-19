@@ -1,1059 +1,178 @@
 {
-  "hinweis": "Nur Titel und Kennungen fuer Poster-Suche und deutsche Altersfreigabe. Aus films.json und series.json erzeugt; keine persoenlichen Daten. Alle tmdb_id einzeln gegen Titel und Jahr auf themoviedb.org geprueft.",
-  "stand": "2026-10-18",
-  "anzahl": 124,
+  "hinweis": "Nur Titel und Kennungen fuer den Poster-Lauf. Keine persoenlichen Daten.",
+  "stand": "2026-10-19",
+  "anzahl": 171,
   "titel": [
-    {
-      "id": "film-inception",
-      "art": "film",
-      "imdb_id": null,
-      "tmdb_id": 27205,
-      "titel": "Inception",
-      "originaltitel": "Inception",
-      "jahr": 2010
-    },
-    {
-      "id": "film-avengers-endgame",
-      "art": "film",
-      "imdb_id": null,
-      "tmdb_id": 299534,
-      "titel": "Avengers: Endgame",
-      "originaltitel": "Avengers: Endgame",
-      "jahr": 2019
-    },
-    {
-      "id": "tt15239678",
-      "art": "film",
-      "imdb_id": "tt15239678",
-      "tmdb_id": 693134,
-      "titel": "Dune: Part Two",
-      "originaltitel": null,
-      "jahr": 2024
-    },
-    {
-      "id": "tt10288566",
-      "art": "film",
-      "imdb_id": "tt10288566",
-      "tmdb_id": 580175,
-      "titel": "Der Rausch",
-      "originaltitel": "Druk",
-      "jahr": 2020
-    },
-    {
-      "id": "tt5363618",
-      "art": "film",
-      "imdb_id": "tt5363618",
-      "tmdb_id": 502033,
-      "titel": "Sound of Metal",
-      "originaltitel": null,
-      "jahr": 2020
-    },
-    {
-      "id": "tt9770150",
-      "art": "film",
-      "imdb_id": "tt9770150",
-      "tmdb_id": 581734,
-      "titel": "Nomadland",
-      "originaltitel": null,
-      "jahr": 2020
-    },
-    {
-      "id": "tt2948372",
-      "art": "film",
-      "imdb_id": "tt2948372",
-      "tmdb_id": 508442,
-      "titel": "Soul",
-      "originaltitel": null,
-      "jahr": 2020
-    },
-    {
-      "id": "tt7126948",
-      "art": "film",
-      "imdb_id": "tt7126948",
-      "tmdb_id": 464052,
-      "titel": "Wonder Woman 1984",
-      "originaltitel": null,
-      "jahr": 2020
-    },
-    {
-      "id": "tt1070874",
-      "art": "film",
-      "imdb_id": "tt1070874",
-      "tmdb_id": 556984,
-      "titel": "Der Prozess gegen die Chicago 7",
-      "originaltitel": "The Trial of the Chicago 7",
-      "jahr": 2020
-    },
-    {
-      "id": "tt10872600",
-      "art": "film",
-      "imdb_id": "tt10872600",
-      "tmdb_id": 634649,
-      "titel": "Spider-Man: No Way Home",
-      "originaltitel": null,
-      "jahr": 2021
-    },
-    {
-      "id": "tt1160419",
-      "art": "film",
-      "imdb_id": "tt1160419",
-      "tmdb_id": 438631,
-      "titel": "Dune",
-      "originaltitel": null,
-      "jahr": 2021
-    },
-    {
-      "id": "tt2953050",
-      "art": "film",
-      "imdb_id": "tt2953050",
-      "tmdb_id": 568124,
-      "titel": "Encanto",
-      "originaltitel": null,
-      "jahr": 2021
-    },
-    {
-      "id": "tt2382320",
-      "art": "film",
-      "imdb_id": "tt2382320",
-      "tmdb_id": 370172,
-      "titel": "No Time to Die",
-      "originaltitel": null,
-      "jahr": 2021
-    },
-    {
-      "id": "tt9376612",
-      "art": "film",
-      "imdb_id": "tt9376612",
-      "tmdb_id": 566525,
-      "titel": "Shang-Chi and the Legend of the Ten Rings",
-      "originaltitel": null,
-      "jahr": 2021
-    },
-    {
-      "id": "tt8721424",
-      "art": "film",
-      "imdb_id": "tt8721424",
-      "tmdb_id": 537116,
-      "titel": "tick, tick… BOOM!",
-      "originaltitel": null,
-      "jahr": 2021
-    },
-    {
-      "id": "tt9639470",
-      "art": "film",
-      "imdb_id": "tt9639470",
-      "tmdb_id": 576845,
-      "titel": "Last Night in Soho",
-      "originaltitel": null,
-      "jahr": 2021
-    },
-    {
-      "id": "tt1745960",
-      "art": "film",
-      "imdb_id": "tt1745960",
-      "tmdb_id": 361743,
-      "titel": "Top Gun: Maverick",
-      "originaltitel": null,
-      "jahr": 2022
-    },
-    {
-      "id": "tt6710474",
-      "art": "film",
-      "imdb_id": "tt6710474",
-      "tmdb_id": 545611,
-      "titel": "Everything Everywhere All at Once",
-      "originaltitel": null,
-      "jahr": 2022
-    },
-    {
-      "id": "tt1016150",
-      "art": "film",
-      "imdb_id": "tt1016150",
-      "tmdb_id": 49046,
-      "titel": "Im Westen nichts Neues",
-      "originaltitel": "All Quiet on the Western Front",
-      "jahr": 2022
-    },
-    {
-      "id": "tt1877830",
-      "art": "film",
-      "imdb_id": "tt1877830",
-      "tmdb_id": 414906,
-      "titel": "The Batman",
-      "originaltitel": null,
-      "jahr": 2022
-    },
-    {
-      "id": "tt1488589",
-      "art": "film",
-      "imdb_id": "tt1488589",
-      "tmdb_id": 555604,
-      "titel": "Guillermo del Toros Pinocchio",
-      "originaltitel": "Guillermo del Toro's Pinocchio",
-      "jahr": 2022
-    },
-    {
-      "id": "tt13833688",
-      "art": "film",
-      "imdb_id": "tt13833688",
-      "tmdb_id": 785084,
-      "titel": "The Whale",
-      "originaltitel": null,
-      "jahr": 2022
-    },
-    {
-      "id": "tt1630029",
-      "art": "film",
-      "imdb_id": "tt1630029",
-      "tmdb_id": 76600,
-      "titel": "Avatar: The Way of Water",
-      "originaltitel": null,
-      "jahr": 2022
-    },
-    {
-      "id": "tt15398776",
-      "art": "film",
-      "imdb_id": "tt15398776",
-      "tmdb_id": 872585,
-      "titel": "Oppenheimer",
-      "originaltitel": null,
-      "jahr": 2023
-    },
-    {
-      "id": "tt9362722",
-      "art": "film",
-      "imdb_id": "tt9362722",
-      "tmdb_id": 569094,
-      "titel": "Spider-Man: Across the Spider-Verse",
-      "originaltitel": null,
-      "jahr": 2023
-    },
-    {
-      "id": "tt23289160",
-      "art": "film",
-      "imdb_id": "tt23289160",
-      "tmdb_id": 940721,
-      "titel": "Godzilla Minus One",
-      "originaltitel": "Gojira -1.0",
-      "jahr": 2023
-    },
-    {
-      "id": "tt16277242",
-      "art": "film",
-      "imdb_id": "tt16277242",
-      "tmdb_id": 906126,
-      "titel": "La sociedad de la nieve",
-      "originaltitel": null,
-      "jahr": 2023
-    },
-    {
-      "id": "tt10366206",
-      "art": "film",
-      "imdb_id": "tt10366206",
-      "tmdb_id": 603692,
-      "titel": "John Wick: Kapitel 4",
-      "originaltitel": "John Wick: Chapter 4",
-      "jahr": 2023
-    },
-    {
-      "id": "tt1517268",
-      "art": "film",
-      "imdb_id": "tt1517268",
-      "tmdb_id": 346698,
-      "titel": "Barbie",
-      "originaltitel": null,
-      "jahr": 2023
-    },
-    {
-      "id": "tt9603212",
-      "art": "film",
-      "imdb_id": "tt9603212",
-      "tmdb_id": 575264,
-      "titel": "Mission: Impossible – Dead Reckoning Teil Eins",
-      "originaltitel": "Mission: Impossible – Dead Reckoning Part One",
-      "jahr": 2023
-    },
-    {
-      "id": "tt29623480",
-      "art": "film",
-      "imdb_id": "tt29623480",
-      "tmdb_id": 1184918,
-      "titel": "Der wilde Roboter",
-      "originaltitel": "The Wild Robot",
-      "jahr": 2024
-    },
-    {
-      "id": "tt22022452",
-      "art": "film",
-      "imdb_id": "tt22022452",
-      "tmdb_id": 1022789,
-      "titel": "Alles steht Kopf 2",
-      "originaltitel": "Inside Out 2",
-      "jahr": 2024
-    },
-    {
-      "id": "tt6263850",
-      "art": "film",
-      "imdb_id": "tt6263850",
-      "tmdb_id": 533535,
-      "titel": "Deadpool & Wolverine",
-      "originaltitel": null,
-      "jahr": 2024
-    },
-    {
-      "id": "tt28607951",
-      "art": "film",
-      "imdb_id": "tt28607951",
-      "tmdb_id": 1064213,
-      "titel": "Anora",
-      "originaltitel": null,
-      "jahr": 2024
-    },
-    {
-      "id": "tt17526714",
-      "art": "film",
-      "imdb_id": "tt17526714",
-      "tmdb_id": 933260,
-      "titel": "The Substance",
-      "originaltitel": null,
-      "jahr": 2024
-    },
-    {
-      "id": "tt1262426",
-      "art": "film",
-      "imdb_id": "tt1262426",
-      "tmdb_id": 402431,
-      "titel": "Wicked",
-      "originaltitel": null,
-      "jahr": 2024
-    },
-    {
-      "id": "tt31193180",
-      "art": "film",
-      "imdb_id": "tt31193180",
-      "tmdb_id": 1233413,
-      "titel": "Sinners",
-      "originaltitel": null,
-      "jahr": 2025
-    },
-    {
-      "id": "tt14205554",
-      "art": "film",
-      "imdb_id": "tt14205554",
-      "tmdb_id": 803796,
-      "titel": "KPop Demon Hunters",
-      "originaltitel": null,
-      "jahr": 2025
-    },
-    {
-      "id": "tt16311594",
-      "art": "film",
-      "imdb_id": "tt16311594",
-      "tmdb_id": 911430,
-      "titel": "F1",
-      "originaltitel": null,
-      "jahr": 2025
-    },
-    {
-      "id": "tt26743210",
-      "art": "film",
-      "imdb_id": "tt26743210",
-      "tmdb_id": 1087192,
-      "titel": "Drachenzähmen leicht gemacht",
-      "originaltitel": "How to Train Your Dragon",
-      "jahr": 2025
-    },
-    {
-      "id": "tt30144839",
-      "art": "film",
-      "imdb_id": "tt30144839",
-      "tmdb_id": 1054867,
-      "titel": "One Battle After Another",
-      "originaltitel": null,
-      "jahr": 2025
-    },
-    {
-      "id": "tt9603208",
-      "art": "film",
-      "imdb_id": "tt9603208",
-      "tmdb_id": 575265,
-      "titel": "Mission: Impossible – The Final Reckoning",
-      "originaltitel": null,
-      "jahr": 2025
-    },
-    {
-      "id": "tt26443597",
-      "art": "film",
-      "imdb_id": "tt26443597",
-      "tmdb_id": 1084242,
-      "titel": "Zoomania 2",
-      "originaltitel": "Zootopia 2",
-      "jahr": 2025
-    },
-    {
-      "id": "tt1757678",
-      "art": "film",
-      "imdb_id": "tt1757678",
-      "tmdb_id": 83533,
-      "titel": "Avatar: Fire and Ash",
-      "originaltitel": null,
-      "jahr": 2025
-    },
-    {
-      "id": "tt12042730",
-      "art": "film",
-      "imdb_id": "tt12042730",
-      "tmdb_id": 687163,
-      "titel": "Project Hail Mary",
-      "originaltitel": null,
-      "jahr": 2026
-    },
-    {
-      "id": "tmp:the-odyssey-2026",
-      "art": "film",
-      "imdb_id": null,
-      "tmdb_id": 1368337,
-      "titel": "Die Odyssee",
-      "originaltitel": "The Odyssey",
-      "jahr": 2026
-    },
-    {
-      "id": "tmp:spider-man-brand-new-day-2026",
-      "art": "film",
-      "imdb_id": null,
-      "tmdb_id": 969681,
-      "titel": "Spider-Man: Brand New Day",
-      "originaltitel": null,
-      "jahr": 2026
-    },
-    {
-      "id": "tmp:toy-story-5-2026",
-      "art": "film",
-      "imdb_id": null,
-      "tmdb_id": 1084244,
-      "titel": "Toy Story 5",
-      "originaltitel": null,
-      "jahr": 2026
-    },
-    {
-      "id": "tmp:28-years-later-the-bone-temple-2026",
-      "art": "film",
-      "imdb_id": null,
-      "tmdb_id": 1272837,
-      "titel": "28 Years Later: The Bone Temple",
-      "originaltitel": null,
-      "jahr": 2026
-    },
-    {
-      "id": "tmp:the-super-mario-galaxy-movie-2026",
-      "art": "film",
-      "imdb_id": null,
-      "tmdb_id": 1226863,
-      "titel": "Der Super Mario Galaxy Film",
-      "originaltitel": "The Super Mario Galaxy Movie",
-      "jahr": 2026
-    },
-    {
-      "id": "serie-breaking-bad",
-      "art": "serie",
-      "imdb_id": null,
-      "tmdb_id": 1396,
-      "titel": "Breaking Bad",
-      "originaltitel": "Breaking Bad",
-      "jahr": 2008
-    },
-    {
-      "id": "serie-loki",
-      "art": "serie",
-      "imdb_id": null,
-      "tmdb_id": 84958,
-      "titel": "Loki",
-      "originaltitel": "Loki",
-      "jahr": 2021
-    },
-    {
-      "id": "serie-the-bear",
-      "art": "serie",
-      "imdb_id": "tt14452776",
-      "tmdb_id": 136315,
-      "titel": "The Bear",
-      "originaltitel": "The Bear",
-      "jahr": 2022
-    },
-    {
-      "id": "serie-severance",
-      "art": "serie",
-      "imdb_id": "tt11280740",
-      "tmdb_id": 95396,
-      "titel": "Severance – Die Trennung",
-      "originaltitel": "Severance",
-      "jahr": 2022
-    },
-    {
-      "id": "serie-shogun",
-      "art": "serie",
-      "imdb_id": "tt2788316",
-      "tmdb_id": 126308,
-      "titel": "Shōgun",
-      "originaltitel": "Shōgun",
-      "jahr": 2024
-    },
-    {
-      "id": "serie-adolescence",
-      "art": "serie",
-      "imdb_id": "tt31806037",
-      "tmdb_id": 249042,
-      "titel": "Adolescence",
-      "originaltitel": "Adolescence",
-      "jahr": 2025
-    },
-    {
-      "id": "serie-the-last-of-us",
-      "art": "serie",
-      "imdb_id": "tt3581920",
-      "tmdb_id": 100088,
-      "titel": "The Last of Us",
-      "originaltitel": "The Last of Us",
-      "jahr": 2023
-    },
-    {
-      "id": "serie-squid-game",
-      "art": "serie",
-      "imdb_id": "tt10919420",
-      "tmdb_id": 93405,
-      "titel": "Squid Game",
-      "originaltitel": "오징어 게임",
-      "jahr": 2021
-    },
-    {
-      "id": "serie-el-eternauta",
-      "art": "serie",
-      "imdb_id": "tt27740241",
-      "tmdb_id": 226362,
-      "titel": "Die Legende von El Eternauta",
-      "originaltitel": "El Eternauta",
-      "jahr": 2025
-    },
-    {
-      "id": "serie-cien-anos-de-soledad",
-      "art": "serie",
-      "imdb_id": "tt9892936",
-      "tmdb_id": 207333,
-      "titel": "Hundert Jahre Einsamkeit",
-      "originaltitel": "Cien años de soledad",
-      "jahr": 2024
-    },
-    {
-      "id": "serie-slow-horses",
-      "art": "serie",
-      "imdb_id": "tt5875444",
-      "tmdb_id": 95480,
-      "titel": "Slow Horses – Ein Fall für Jackson Lamb",
-      "originaltitel": "Slow Horses",
-      "jahr": 2022
-    },
-    {
-      "id": "serie-fallout",
-      "art": "serie",
-      "imdb_id": "tt12637874",
-      "tmdb_id": 106379,
-      "titel": "Fallout",
-      "originaltitel": "Fallout",
-      "jahr": 2024
-    },
-    {
-      "id": "serie-the-white-lotus",
-      "art": "serie",
-      "imdb_id": "tt13406094",
-      "tmdb_id": 111803,
-      "titel": "The White Lotus",
-      "originaltitel": "The White Lotus",
-      "jahr": 2021
-    },
-    {
-      "id": "serie-wednesday",
-      "art": "serie",
-      "imdb_id": "tt13443470",
-      "tmdb_id": 119051,
-      "titel": "Wednesday",
-      "originaltitel": "Wednesday",
-      "jahr": 2022
-    },
-    {
-      "id": "serie-only-murders-in-the-building",
-      "art": "serie",
-      "imdb_id": "tt11691774",
-      "tmdb_id": 107113,
-      "titel": "Only Murders in the Building",
-      "originaltitel": "Only Murders in the Building",
-      "jahr": 2021
-    },
-    {
-      "id": "serie-baby-reindeer",
-      "art": "serie",
-      "imdb_id": "tt13649112",
-      "tmdb_id": 241259,
-      "titel": "Baby Reindeer",
-      "originaltitel": "Baby Reindeer",
-      "jahr": 2024
-    },
-    {
-      "id": "serie-ripley",
-      "art": "serie",
-      "imdb_id": "tt11016042",
-      "tmdb_id": 94028,
-      "titel": "Ripley",
-      "originaltitel": "Ripley",
-      "jahr": 2024
-    },
-    {
-      "id": "serie-andor",
-      "art": "serie",
-      "imdb_id": "tt9253284",
-      "tmdb_id": 83867,
-      "titel": "Andor",
-      "originaltitel": "Andor",
-      "jahr": 2022
-    },
-    {
-      "id": "serie-house-of-the-dragon",
-      "art": "serie",
-      "imdb_id": "tt11198330",
-      "tmdb_id": 94997,
-      "titel": "House of the Dragon",
-      "originaltitel": "House of the Dragon",
-      "jahr": 2022
-    },
-    {
-      "id": "serie-maxton-hall",
-      "art": "serie",
-      "imdb_id": "tt27792190",
-      "tmdb_id": 250670,
-      "titel": "Maxton Hall – Die Welt zwischen uns",
-      "originaltitel": "Maxton Hall – The World Between Us",
-      "jahr": 2024
-    },
-    {
-      "id": "serie-kleo",
-      "art": "serie",
-      "imdb_id": "tt15135104",
-      "tmdb_id": 206010,
-      "titel": "Kleo",
-      "originaltitel": "Kleo",
-      "jahr": 2022
-    },
-    {
-      "id": "serie-dark",
-      "art": "serie",
-      "imdb_id": "tt5753856",
-      "tmdb_id": 70523,
-      "titel": "Dark",
-      "originaltitel": "Dark",
-      "jahr": 2017
-    },
-    {
-      "id": "serie-pachinko",
-      "art": "serie",
-      "imdb_id": "tt8888462",
-      "tmdb_id": 110382,
-      "titel": "Pachinko – Ein einfaches Leben",
-      "originaltitel": "Pachinko",
-      "jahr": 2022
-    },
-    {
-      "id": "serie-the-diplomat",
-      "art": "serie",
-      "imdb_id": "tt17491088",
-      "tmdb_id": 203857,
-      "titel": "The Diplomat",
-      "originaltitel": "The Diplomat",
-      "jahr": 2023
-    },
-    {
-      "id": "serie-ted-lasso",
-      "art": "serie",
-      "imdb_id": "tt10986410",
-      "tmdb_id": 97546,
-      "titel": "Ted Lasso",
-      "originaltitel": "Ted Lasso",
-      "jahr": 2020
-    },
-    {
-      "id": "serie-3-body-problem",
-      "art": "serie",
-      "imdb_id": "tt13016388",
-      "tmdb_id": 108545,
-      "titel": "3 Body Problem",
-      "originaltitel": "3 Body Problem",
-      "jahr": 2024
-    },
-    {
-      "id": "serie-reacher",
-      "art": "serie",
-      "imdb_id": "tt9288030",
-      "tmdb_id": 108978,
-      "titel": "Reacher",
-      "originaltitel": "Reacher",
-      "jahr": 2022
-    },
-    {
-      "id": "serie-silo",
-      "art": "serie",
-      "imdb_id": "tt14688458",
-      "tmdb_id": 125988,
-      "titel": "Silo",
-      "originaltitel": "Silo",
-      "jahr": 2023
-    },
-    {
-      "id": "serie-ozark",
-      "art": "serie",
-      "imdb_id": "tt5071412",
-      "tmdb_id": 69740,
-      "titel": "Ozark",
-      "originaltitel": "Ozark",
-      "jahr": 2017
-    },
-    {
-      "id": "serie-berlin",
-      "art": "serie",
-      "imdb_id": "tt16288804",
-      "tmdb_id": 146176,
-      "titel": "Berlin",
-      "originaltitel": "Berlín",
-      "jahr": 2023
-    },
-    {
-      "id": "serie-der-schwarm",
-      "art": "serie",
-      "imdb_id": "tt0808491",
-      "tmdb_id": 211240,
-      "titel": "Der Schwarm",
-      "originaltitel": "Der Schwarm",
-      "jahr": 2023
-    },
-    {
-      "id": "tmp:alles-steht-kopf-2015",
-      "art": "film",
-      "tmdb_id": 150540,
-      "titel": "Alles steht Kopf",
-      "originaltitel": "Inside Out",
-      "jahr": 2015
-    },
-    {
-      "id": "tmp:my-girl-meine-erste-liebe-1991",
-      "art": "film",
-      "tmdb_id": 4032,
-      "titel": "My Girl – Meine erste Liebe",
-      "originaltitel": "My Girl",
-      "jahr": 1991
-    },
-    {
-      "id": "tmp:findet-nemo-2003",
-      "art": "film",
-      "tmdb_id": 12,
-      "titel": "Findet Nemo",
-      "originaltitel": "Finding Nemo",
-      "jahr": 2003
-    },
-    {
-      "id": "tmp:der-koenig-der-loewen-1994",
-      "art": "film",
-      "tmdb_id": 8587,
-      "titel": "Der König der Löwen",
-      "originaltitel": "The Lion King",
-      "jahr": 1994
-    },
-    {
-      "id": "tmp:luca-2021",
-      "art": "film",
-      "tmdb_id": 508943,
-      "titel": "Luca",
-      "originaltitel": "Luca",
-      "jahr": 2021
-    },
-    {
-      "id": "tmp:paddington-2014",
-      "art": "film",
-      "tmdb_id": 116149,
-      "titel": "Paddington",
-      "originaltitel": "Paddington",
-      "jahr": 2014
-    },
-    {
-      "id": "tmp:ratatouille-2007",
-      "art": "film",
-      "tmdb_id": 2062,
-      "titel": "Ratatouille",
-      "originaltitel": "Ratatouille",
-      "jahr": 2007
-    },
-    {
-      "id": "tmp:vaiana-2016",
-      "art": "film",
-      "tmdb_id": 277834,
-      "titel": "Vaiana",
-      "originaltitel": "Moana",
-      "jahr": 2016
-    },
-    {
-      "id": "tmp:kevin-allein-zu-haus-1990",
-      "art": "film",
-      "tmdb_id": 771,
-      "titel": "Kevin – Allein zu Haus",
-      "originaltitel": "Home Alone",
-      "jahr": 1990
-    },
-    {
-      "id": "tmp:zoomania-2016",
-      "art": "film",
-      "tmdb_id": 269149,
-      "titel": "Zoomania",
-      "originaltitel": "Zootopia",
-      "jahr": 2016
-    },
-    {
-      "id": "tmp:coco-lebendiger-als-das-leben-2017",
-      "art": "film",
-      "tmdb_id": 354912,
-      "titel": "Coco – Lebendiger als das Leben!",
-      "originaltitel": "Coco",
-      "jahr": 2017
-    },
-    {
-      "id": "tmp:oben-2009",
-      "art": "film",
-      "tmdb_id": 14160,
-      "titel": "Oben",
-      "originaltitel": "Up",
-      "jahr": 2009
-    },
-    {
-      "id": "tmp:wunder-2017",
-      "art": "film",
-      "tmdb_id": 406997,
-      "titel": "Wunder",
-      "originaltitel": "Wonder",
-      "jahr": 2017
-    },
-    {
-      "id": "tmp:der-junge-der-den-wind-einfing-2019",
-      "art": "film",
-      "tmdb_id": 491480,
-      "titel": "Der Junge, der den Wind einfing",
-      "originaltitel": "The Boy Who Harnessed the Wind",
-      "jahr": 2019
-    },
-    {
-      "id": "tmp:wall-e-der-letzte-raeumt-die-erde-auf-2008",
-      "art": "film",
-      "tmdb_id": 10681,
-      "titel": "WALL·E – Der Letzte räumt die Erde auf",
-      "originaltitel": "WALL-E",
-      "jahr": 2008
-    },
-    {
-      "id": "tmp:der-kleine-prinz-2015",
-      "art": "film",
-      "tmdb_id": 309809,
-      "titel": "Der kleine Prinz",
-      "originaltitel": "The Little Prince",
-      "jahr": 2015
-    },
-    {
-      "id": "tmp:mr-poppers-pinguine-2011",
-      "art": "film",
-      "tmdb_id": 58224,
-      "titel": "Mr. Poppers Pinguine",
-      "originaltitel": "Mr. Popper's Penguins",
-      "jahr": 2011
-    },
-    {
-      "id": "tmp:die-monster-ag-2001",
-      "art": "film",
-      "tmdb_id": 585,
-      "titel": "Die Monster AG",
-      "originaltitel": "Monsters, Inc.",
-      "jahr": 2001
-    },
-    {
-      "id": "tmp:antarctica-gefangen-im-eis-2006",
-      "art": "film",
-      "tmdb_id": 9036,
-      "titel": "Antarctica – Gefangen im Eis",
-      "originaltitel": "Eight Below",
-      "jahr": 2006
-    },
-    {
-      "id": "tmp:bolt-ein-hund-fuer-alle-faelle-2008",
-      "art": "film",
-      "tmdb_id": 13053,
-      "titel": "Bolt – Ein Hund für alle Fälle",
-      "originaltitel": "Bolt",
-      "jahr": 2008
-    },
-    {
-      "id": "tmp:der-marsianer-rettet-mark-watney-2015",
-      "art": "film",
-      "tmdb_id": 286217,
-      "titel": "Der Marsianer – Rettet Mark Watney",
-      "originaltitel": "The Martian",
-      "jahr": 2015
-    },
-    {
-      "id": "tmp:e-t-der-ausserirdische-1982",
-      "art": "film",
-      "tmdb_id": 601,
-      "titel": "E.T. – Der Außerirdische",
-      "originaltitel": "E.T. the Extra-Terrestrial",
-      "jahr": 1982
-    },
-    {
-      "id": "tmp:zurueck-in-die-zukunft-1985",
-      "art": "film",
-      "tmdb_id": 105,
-      "titel": "Zurück in die Zukunft",
-      "originaltitel": "Back to the Future",
-      "jahr": 1985
-    },
-    {
-      "id": "tmp:die-letzten-gluehwuermchen-1988",
-      "art": "film",
-      "tmdb_id": 12477,
-      "titel": "Die letzten Glühwürmchen",
-      "originaltitel": "Hotaru no haka",
-      "jahr": 1988
-    },
-    {
-      "id": "serie-lenas-hof",
-      "art": "serie",
-      "tmdb_id": 116552,
-      "titel": "Lenas Hof",
-      "jahr": 2025
-    },
-    {
-      "id": "serie-kleinreimstadt",
-      "art": "serie",
-      "titel": "Kleinreimstadt"
-    },
-    {
-      "id": "serie-kito-maja-und-die-kugelkiste",
-      "art": "serie",
-      "tmdb_id": 299447,
-      "titel": "Kito, Maja und die Kugelkiste",
-      "jahr": 2025
-    },
-    {
-      "id": "serie-lauras-stern",
-      "art": "serie",
-      "tmdb_id": 40625,
-      "titel": "Lauras Stern",
-      "jahr": 2002
-    },
-    {
-      "id": "serie-benjamin-bluemchen",
-      "art": "serie",
-      "tmdb_id": 62702,
-      "titel": "Benjamin Blümchen",
-      "jahr": 1989
-    },
-    {
-      "id": "serie-oonas-und-babas-insel",
-      "art": "serie",
-      "tmdb_id": 69926,
-      "titel": "Oonas und Babas Insel",
-      "jahr": 2015
-    },
-    {
-      "id": "serie-mue-mo-das-muellmobil",
-      "art": "serie",
-      "tmdb_id": 112442,
-      "titel": "Mü-Mo – das Müllmobil",
-      "jahr": 2020
-    },
-    {
-      "id": "serie-die-gummibaerenbande",
-      "art": "serie",
-      "tmdb_id": 1931,
-      "titel": "Die Gummibärenbande",
-      "jahr": 1985
-    },
-    {
-      "id": "serie-kaeptn-balu-und-seine-tollkuehne-crew",
-      "art": "serie",
-      "tmdb_id": 2720,
-      "titel": "Käpt’n Balu und seine tollkühne Crew",
-      "jahr": 1990
-    },
-    {
-      "id": "serie-disneys-grosse-pause",
-      "art": "serie",
-      "tmdb_id": 1546,
-      "titel": "Disneys Große Pause",
-      "jahr": 1997
-    },
-    {
-      "id": "serie-detektiv-conan",
-      "art": "serie",
-      "tmdb_id": 30983,
-      "titel": "Detektiv Conan",
-      "jahr": 1996
-    },
-    {
-      "id": "serie-weihnachtsmann-co-kg",
-      "art": "serie",
-      "tmdb_id": 13407,
-      "titel": "Weihnachtsmann & Co. KG",
-      "jahr": 1997
-    },
-    {
-      "id": "serie-der-kleine-baer",
-      "art": "serie",
-      "tmdb_id": 9834,
-      "titel": "Der kleine Bär",
-      "jahr": 1995
-    },
-    {
-      "id": "serie-franklin",
-      "art": "serie",
-      "tmdb_id": 1458,
-      "titel": "Franklin",
-      "jahr": 1997
-    },
-    {
-      "id": "serie-peter-hase-und-seine-freunde",
-      "art": "serie",
-      "tmdb_id": 10817,
-      "titel": "Peter Hase und seine Freunde",
-      "jahr": 1992
-    },
-    {
-      "id": "serie-tabaluga",
-      "art": "serie",
-      "tmdb_id": 47424,
-      "titel": "Tabaluga",
-      "jahr": 1997
-    },
-    {
-      "id": "serie-die-sendung-mit-der-maus",
-      "art": "serie",
-      "tmdb_id": 13819,
-      "titel": "Die Sendung mit der Maus",
-      "jahr": 1971
-    },
-    {
-      "id": "serie-es-war-einmal-das-leben",
-      "art": "serie",
-      "tmdb_id": 2632,
-      "titel": "Es war einmal... das Leben",
-      "jahr": 1987
-    },
-    {
-      "id": "serie-der-zauberschulbus",
-      "art": "serie",
-      "tmdb_id": 7248,
-      "titel": "Der Zauberschulbus",
-      "jahr": 1994
-    }
+    {"id":"film-inception","art":"film","titel":"Inception","jahr":2010,"tmdb_id":27205},
+    {"id":"film-avengers-endgame","art":"film","titel":"Avengers: Endgame","jahr":2019,"tmdb_id":299534},
+    {"id":"tt15239678","art":"film","titel":"Dune: Part Two","jahr":2024,"tmdb_id":693134,"imdb_id":"tt15239678"},
+    {"id":"tt10288566","art":"film","titel":"Der Rausch","jahr":2020,"tmdb_id":580175,"imdb_id":"tt10288566","originaltitel":"Druk"},
+    {"id":"tt5363618","art":"film","titel":"Sound of Metal","jahr":2020,"tmdb_id":502033,"imdb_id":"tt5363618"},
+    {"id":"tt9770150","art":"film","titel":"Nomadland","jahr":2020,"tmdb_id":581734,"imdb_id":"tt9770150"},
+    {"id":"tt2948372","art":"film","titel":"Soul","jahr":2020,"tmdb_id":508442,"imdb_id":"tt2948372"},
+    {"id":"tt7126948","art":"film","titel":"Wonder Woman 1984","jahr":2020,"tmdb_id":464052,"imdb_id":"tt7126948"},
+    {"id":"tt1070874","art":"film","titel":"Der Prozess gegen die Chicago 7","jahr":2020,"tmdb_id":556984,"imdb_id":"tt1070874","originaltitel":"The Trial of the Chicago 7"},
+    {"id":"tt10872600","art":"film","titel":"Spider-Man: No Way Home","jahr":2021,"tmdb_id":634649,"imdb_id":"tt10872600"},
+    {"id":"tt1160419","art":"film","titel":"Dune","jahr":2021,"tmdb_id":438631,"imdb_id":"tt1160419"},
+    {"id":"tt2953050","art":"film","titel":"Encanto","jahr":2021,"tmdb_id":568124,"imdb_id":"tt2953050"},
+    {"id":"tt2382320","art":"film","titel":"No Time to Die","jahr":2021,"tmdb_id":370172,"imdb_id":"tt2382320"},
+    {"id":"tt9376612","art":"film","titel":"Shang-Chi and the Legend of the Ten Rings","jahr":2021,"tmdb_id":566525,"imdb_id":"tt9376612"},
+    {"id":"tt8721424","art":"film","titel":"tick, tick… BOOM!","jahr":2021,"tmdb_id":537116,"imdb_id":"tt8721424"},
+    {"id":"tt9639470","art":"film","titel":"Last Night in Soho","jahr":2021,"tmdb_id":576845,"imdb_id":"tt9639470"},
+    {"id":"tt1745960","art":"film","titel":"Top Gun: Maverick","jahr":2022,"tmdb_id":361743,"imdb_id":"tt1745960"},
+    {"id":"tt6710474","art":"film","titel":"Everything Everywhere All at Once","jahr":2022,"tmdb_id":545611,"imdb_id":"tt6710474"},
+    {"id":"tt1016150","art":"film","titel":"Im Westen nichts Neues","jahr":2022,"tmdb_id":49046,"imdb_id":"tt1016150","originaltitel":"All Quiet on the Western Front"},
+    {"id":"tt1877830","art":"film","titel":"The Batman","jahr":2022,"tmdb_id":414906,"imdb_id":"tt1877830"},
+    {"id":"tt1488589","art":"film","titel":"Guillermo del Toros Pinocchio","jahr":2022,"tmdb_id":555604,"imdb_id":"tt1488589","originaltitel":"Guillermo del Toro's Pinocchio"},
+    {"id":"tt13833688","art":"film","titel":"The Whale","jahr":2022,"tmdb_id":785084,"imdb_id":"tt13833688"},
+    {"id":"tt1630029","art":"film","titel":"Avatar: The Way of Water","jahr":2022,"tmdb_id":76600,"imdb_id":"tt1630029"},
+    {"id":"tt15398776","art":"film","titel":"Oppenheimer","jahr":2023,"tmdb_id":872585,"imdb_id":"tt15398776"},
+    {"id":"tt9362722","art":"film","titel":"Spider-Man: Across the Spider-Verse","jahr":2023,"tmdb_id":569094,"imdb_id":"tt9362722"},
+    {"id":"tt23289160","art":"film","titel":"Godzilla Minus One","jahr":2023,"tmdb_id":940721,"imdb_id":"tt23289160","originaltitel":"Gojira -1.0"},
+    {"id":"tt16277242","art":"film","titel":"La sociedad de la nieve","jahr":2023,"tmdb_id":906126,"imdb_id":"tt16277242"},
+    {"id":"tt10366206","art":"film","titel":"John Wick: Kapitel 4","jahr":2023,"tmdb_id":603692,"imdb_id":"tt10366206","originaltitel":"John Wick: Chapter 4"},
+    {"id":"tt1517268","art":"film","titel":"Barbie","jahr":2023,"tmdb_id":346698,"imdb_id":"tt1517268"},
+    {"id":"tt9603212","art":"film","titel":"Mission: Impossible – Dead Reckoning Teil Eins","jahr":2023,"tmdb_id":575264,"imdb_id":"tt9603212","originaltitel":"Mission: Impossible – Dead Reckoning Part One"},
+    {"id":"tt29623480","art":"film","titel":"Der wilde Roboter","jahr":2024,"tmdb_id":1184918,"imdb_id":"tt29623480","originaltitel":"The Wild Robot"},
+    {"id":"tt22022452","art":"film","titel":"Alles steht Kopf 2","jahr":2024,"tmdb_id":1022789,"imdb_id":"tt22022452","originaltitel":"Inside Out 2"},
+    {"id":"tt6263850","art":"film","titel":"Deadpool & Wolverine","jahr":2024,"tmdb_id":533535,"imdb_id":"tt6263850"},
+    {"id":"tt28607951","art":"film","titel":"Anora","jahr":2024,"tmdb_id":1064213,"imdb_id":"tt28607951"},
+    {"id":"tt17526714","art":"film","titel":"The Substance","jahr":2024,"tmdb_id":933260,"imdb_id":"tt17526714"},
+    {"id":"tt1262426","art":"film","titel":"Wicked","jahr":2024,"tmdb_id":402431,"imdb_id":"tt1262426"},
+    {"id":"tt31193180","art":"film","titel":"Sinners","jahr":2025,"tmdb_id":1233413,"imdb_id":"tt31193180"},
+    {"id":"tt14205554","art":"film","titel":"KPop Demon Hunters","jahr":2025,"tmdb_id":803796,"imdb_id":"tt14205554"},
+    {"id":"tt16311594","art":"film","titel":"F1","jahr":2025,"tmdb_id":911430,"imdb_id":"tt16311594"},
+    {"id":"tt26743210","art":"film","titel":"Drachenzähmen leicht gemacht","jahr":2025,"tmdb_id":1087192,"imdb_id":"tt26743210","originaltitel":"How to Train Your Dragon"},
+    {"id":"tt30144839","art":"film","titel":"One Battle After Another","jahr":2025,"tmdb_id":1054867,"imdb_id":"tt30144839"},
+    {"id":"tt9603208","art":"film","titel":"Mission: Impossible – The Final Reckoning","jahr":2025,"tmdb_id":575265,"imdb_id":"tt9603208"},
+    {"id":"tt26443597","art":"film","titel":"Zoomania 2","jahr":2025,"tmdb_id":1084242,"imdb_id":"tt26443597","originaltitel":"Zootopia 2"},
+    {"id":"tt1757678","art":"film","titel":"Avatar: Fire and Ash","jahr":2025,"tmdb_id":83533,"imdb_id":"tt1757678"},
+    {"id":"tt12042730","art":"film","titel":"Project Hail Mary","jahr":2026,"tmdb_id":687163,"imdb_id":"tt12042730"},
+    {"id":"tmp:the-odyssey-2026","art":"film","titel":"Die Odyssee","jahr":2026,"tmdb_id":1368337,"originaltitel":"The Odyssey"},
+    {"id":"tmp:spider-man-brand-new-day-2026","art":"film","titel":"Spider-Man: Brand New Day","jahr":2026,"tmdb_id":969681},
+    {"id":"tmp:toy-story-5-2026","art":"film","titel":"Toy Story 5","jahr":2026,"tmdb_id":1084244},
+    {"id":"tmp:28-years-later-the-bone-temple-2026","art":"film","titel":"28 Years Later: The Bone Temple","jahr":2026,"tmdb_id":1272837},
+    {"id":"tmp:the-super-mario-galaxy-movie-2026","art":"film","titel":"Der Super Mario Galaxy Film","jahr":2026,"tmdb_id":1226863,"originaltitel":"The Super Mario Galaxy Movie"},
+    {"id":"tmp:alles-steht-kopf-2015","art":"film","titel":"Alles steht Kopf","jahr":2015,"tmdb_id":150540,"originaltitel":"Inside Out"},
+    {"id":"tmp:my-girl-meine-erste-liebe-1991","art":"film","titel":"My Girl – Meine erste Liebe","jahr":1991,"tmdb_id":4032,"originaltitel":"My Girl"},
+    {"id":"tmp:findet-nemo-2003","art":"film","titel":"Findet Nemo","jahr":2003,"tmdb_id":12,"originaltitel":"Finding Nemo"},
+    {"id":"tmp:der-koenig-der-loewen-1994","art":"film","titel":"Der König der Löwen","jahr":1994,"tmdb_id":8587,"originaltitel":"The Lion King"},
+    {"id":"tmp:luca-2021","art":"film","titel":"Luca","jahr":2021,"tmdb_id":508943},
+    {"id":"tmp:paddington-2014","art":"film","titel":"Paddington","jahr":2014,"tmdb_id":116149},
+    {"id":"tmp:ratatouille-2007","art":"film","titel":"Ratatouille","jahr":2007,"tmdb_id":2062},
+    {"id":"tmp:vaiana-2016","art":"film","titel":"Vaiana","jahr":2016,"tmdb_id":277834,"originaltitel":"Moana"},
+    {"id":"tmp:kevin-allein-zu-haus-1990","art":"film","titel":"Kevin – Allein zu Haus","jahr":1990,"tmdb_id":771,"originaltitel":"Home Alone"},
+    {"id":"tmp:zoomania-2016","art":"film","titel":"Zoomania","jahr":2016,"tmdb_id":269149,"originaltitel":"Zootopia"},
+    {"id":"tmp:coco-lebendiger-als-das-leben-2017","art":"film","titel":"Coco – Lebendiger als das Leben!","jahr":2017,"tmdb_id":354912,"originaltitel":"Coco"},
+    {"id":"tmp:oben-2009","art":"film","titel":"Oben","jahr":2009,"tmdb_id":14160,"originaltitel":"Up"},
+    {"id":"tmp:wunder-2017","art":"film","titel":"Wunder","jahr":2017,"tmdb_id":406997,"originaltitel":"Wonder"},
+    {"id":"tmp:der-junge-der-den-wind-einfing-2019","art":"film","titel":"Der Junge, der den Wind einfing","jahr":2019,"tmdb_id":491480,"originaltitel":"The Boy Who Harnessed the Wind"},
+    {"id":"tmp:wall-e-der-letzte-raeumt-die-erde-auf-2008","art":"film","titel":"WALL·E – Der Letzte räumt die Erde auf","jahr":2008,"tmdb_id":10681,"originaltitel":"WALL-E"},
+    {"id":"tmp:der-kleine-prinz-2015","art":"film","titel":"Der kleine Prinz","jahr":2015,"tmdb_id":309809,"originaltitel":"The Little Prince"},
+    {"id":"tmp:mr-poppers-pinguine-2011","art":"film","titel":"Mr. Poppers Pinguine","jahr":2011,"tmdb_id":58224,"originaltitel":"Mr. Popper's Penguins"},
+    {"id":"tmp:die-monster-ag-2001","art":"film","titel":"Die Monster AG","jahr":2001,"tmdb_id":585,"originaltitel":"Monsters, Inc."},
+    {"id":"tmp:antarctica-gefangen-im-eis-2006","art":"film","titel":"Antarctica – Gefangen im Eis","jahr":2006,"tmdb_id":9036,"originaltitel":"Eight Below"},
+    {"id":"tmp:bolt-ein-hund-fuer-alle-faelle-2008","art":"film","titel":"Bolt – Ein Hund für alle Fälle","jahr":2008,"tmdb_id":13053,"originaltitel":"Bolt"},
+    {"id":"tmp:der-marsianer-rettet-mark-watney-2015","art":"film","titel":"Der Marsianer – Rettet Mark Watney","jahr":2015,"tmdb_id":286217,"originaltitel":"The Martian"},
+    {"id":"tmp:e-t-der-ausserirdische-1982","art":"film","titel":"E.T. – Der Außerirdische","jahr":1982,"tmdb_id":601,"originaltitel":"E.T. the Extra-Terrestrial"},
+    {"id":"tmp:zurueck-in-die-zukunft-1985","art":"film","titel":"Zurück in die Zukunft","jahr":1985,"tmdb_id":105,"originaltitel":"Back to the Future"},
+    {"id":"tmp:die-letzten-gluehwuermchen-1988","art":"film","titel":"Die letzten Glühwürmchen","jahr":1988,"tmdb_id":12477,"originaltitel":"Hotaru no haka"},
+    {"id":"tmp:der-grueffelo-2009","art":"film","titel":"Der Grüffelo","jahr":2009,"originaltitel":"The Gruffalo"},
+    {"id":"tmp:das-grueffelokind-2011","art":"film","titel":"Das Grüffelokind","jahr":2011,"originaltitel":"The Gruffalo's Child"},
+    {"id":"tmp:fuer-hund-und-katz-ist-auch-noch-platz-2012","art":"film","titel":"Für Hund und Katz ist auch noch Platz","jahr":2012,"originaltitel":"Room on the Broom"},
+    {"id":"tmp:stockmann-2015","art":"film","titel":"Stockmann","jahr":2015,"originaltitel":"Stick Man"},
+    {"id":"tmp:zogg-2018","art":"film","titel":"Zogg","jahr":2018,"originaltitel":"Zog"},
+    {"id":"tmp:die-schnecke-und-der-buckelwal-2019","art":"film","titel":"Die Schnecke und der Buckelwal","jahr":2019,"originaltitel":"The Snail and the Whale"},
+    {"id":"tmp:raeuber-ratte-2017","art":"film","titel":"Räuber Ratte","jahr":2017,"originaltitel":"The Highway Rat"},
+    {"id":"tmp:superwurm-2021","art":"film","titel":"Superwurm","jahr":2021,"originaltitel":"Superworm"},
+    {"id":"tmp:winnie-puuh-2011","art":"film","titel":"Winnie Puuh","jahr":2011,"originaltitel":"Winnie the Pooh"},
+    {"id":"tmp:mama-muh-und-die-kraehe-2008","art":"film","titel":"Mama Muh und die Krähe","jahr":2008,"originaltitel":"Mamma Mu och Kråkan"},
+    {"id":"tmp:der-kleine-rabe-socke-2012","art":"film","titel":"Der kleine Rabe Socke","jahr":2012},
+    {"id":"tmp:pettersson-und-findus-kleiner-quaelgeist-grosse-freundschaft-2014","art":"film","titel":"Pettersson und Findus – Kleiner Quälgeist, große Freundschaft","jahr":2014},
+    {"id":"tmp:lauras-stern-2004","art":"film","titel":"Lauras Stern","jahr":2004},
+    {"id":"tmp:der-kleine-eisbaer-2001","art":"film","titel":"Der kleine Eisbär","jahr":2001},
+    {"id":"tmp:die-haeschenschule-jagd-nach-dem-goldenen-ei-2017","art":"film","titel":"Die Häschenschule – Jagd nach dem goldenen Ei","jahr":2017},
+    {"id":"tmp:janosch-komm-wir-finden-einen-schatz-2012","art":"film","titel":"Janosch – Komm, wir finden einen Schatz","jahr":2012},
+    {"id":"tmp:conni-geheimnis-um-kater-mau-2016","art":"film","titel":"Conni – Geheimnis um Kater Mau","jahr":2016},
+    {"id":"tmp:shaun-das-schaf-der-film-2015","art":"film","titel":"Shaun das Schaf – Der Film","jahr":2015,"originaltitel":"Shaun the Sheep Movie"},
+    {"id":"tmp:lotta-aus-der-krachmacherstrasse-1992","art":"film","titel":"Lotta aus der Krachmacherstraße","jahr":1992,"originaltitel":"Lotta på Bråkmakargatan"},
+    {"id":"tmp:cars-2006","art":"film","titel":"Cars","jahr":2006},
+    {"id":"tmp:toy-story-1995","art":"film","titel":"Toy Story","jahr":1995},
+    {"id":"tmp:die-eiskoenigin-voellig-unverfroren-2013","art":"film","titel":"Die Eiskönigin – Völlig unverfroren","jahr":2013,"originaltitel":"Frozen"},
+    {"id":"tmp:minions-2015","art":"film","titel":"Minions","jahr":2015},
+    {"id":"tmp:madagascar-2005","art":"film","titel":"Madagascar","jahr":2005},
+    {"id":"tmp:heidi-2015","art":"film","titel":"Heidi","jahr":2015},
+    {"id":"tmp:wir-kinder-aus-bullerbue-1986","art":"film","titel":"Wir Kinder aus Bullerbü","jahr":1986,"originaltitel":"Alla vi barn i Bullerbyn"},
+    {"id":"tmp:die-oktonauten-und-die-hoehle-des-deep-2020","art":"film","titel":"Die Oktonauten und die Höhle des Deep","jahr":2020,"originaltitel":"The Octonauts and the Caves of Sac Actun"},
+    {"id":"tmp:paw-patrol-der-kinofilm-2021","art":"film","titel":"Paw Patrol – Der Kinofilm","jahr":2021,"originaltitel":"PAW Patrol: The Movie"},
+    {"id":"tmp:der-kleine-drache-kokosnuss-2014","art":"film","titel":"Der kleine Drache Kokosnuss","jahr":2014},
+    {"id":"tmp:die-biene-maja-der-kinofilm-2014","art":"film","titel":"Die Biene Maja – Der Kinofilm","jahr":2014},
+    {"id":"tmp:ostwind-zusammen-sind-wir-frei-2013","art":"film","titel":"Ostwind – Zusammen sind wir frei","jahr":2013},
+    {"id":"tmp:die-schule-der-magischen-tiere-2021","art":"film","titel":"Die Schule der magischen Tiere","jahr":2021},
+    {"id":"tmp:checker-tobi-und-das-geheimnis-unseres-planeten-2019","art":"film","titel":"Checker Tobi und das Geheimnis unseres Planeten","jahr":2019},
+    {"id":"tmp:dangal-die-hoffnung-auf-den-grossen-sieg-2016","art":"film","titel":"Dangal – Die Hoffnung auf den großen Sieg","jahr":2016,"originaltitel":"Dangal"},
+    {"id":"serie-breaking-bad","art":"serie","titel":"Breaking Bad","jahr":2008,"tmdb_id":1396},
+    {"id":"serie-loki","art":"serie","titel":"Loki","jahr":2021,"tmdb_id":84958},
+    {"id":"serie-the-bear","art":"serie","titel":"The Bear","jahr":2022,"tmdb_id":136315,"imdb_id":"tt14452776"},
+    {"id":"serie-severance","art":"serie","titel":"Severance – Die Trennung","jahr":2022,"tmdb_id":95396,"imdb_id":"tt11280740","originaltitel":"Severance"},
+    {"id":"serie-shogun","art":"serie","titel":"Shōgun","jahr":2024,"tmdb_id":126308,"imdb_id":"tt2788316"},
+    {"id":"serie-adolescence","art":"serie","titel":"Adolescence","jahr":2025,"tmdb_id":249042,"imdb_id":"tt31806037"},
+    {"id":"serie-the-last-of-us","art":"serie","titel":"The Last of Us","jahr":2023,"tmdb_id":100088,"imdb_id":"tt3581920"},
+    {"id":"serie-squid-game","art":"serie","titel":"Squid Game","jahr":2021,"tmdb_id":93405,"imdb_id":"tt10919420","originaltitel":"오징어 게임"},
+    {"id":"serie-el-eternauta","art":"serie","titel":"Die Legende von El Eternauta","jahr":2025,"tmdb_id":226362,"imdb_id":"tt27740241","originaltitel":"El Eternauta"},
+    {"id":"serie-cien-anos-de-soledad","art":"serie","titel":"Hundert Jahre Einsamkeit","jahr":2024,"tmdb_id":207333,"imdb_id":"tt9892936","originaltitel":"Cien años de soledad"},
+    {"id":"serie-slow-horses","art":"serie","titel":"Slow Horses – Ein Fall für Jackson Lamb","jahr":2022,"tmdb_id":95480,"imdb_id":"tt5875444","originaltitel":"Slow Horses"},
+    {"id":"serie-fallout","art":"serie","titel":"Fallout","jahr":2024,"tmdb_id":106379,"imdb_id":"tt12637874"},
+    {"id":"serie-the-white-lotus","art":"serie","titel":"The White Lotus","jahr":2021,"tmdb_id":111803,"imdb_id":"tt13406094"},
+    {"id":"serie-wednesday","art":"serie","titel":"Wednesday","jahr":2022,"tmdb_id":119051,"imdb_id":"tt13443470"},
+    {"id":"serie-only-murders-in-the-building","art":"serie","titel":"Only Murders in the Building","jahr":2021,"tmdb_id":107113,"imdb_id":"tt11691774"},
+    {"id":"serie-baby-reindeer","art":"serie","titel":"Baby Reindeer","jahr":2024,"tmdb_id":241259,"imdb_id":"tt13649112"},
+    {"id":"serie-ripley","art":"serie","titel":"Ripley","jahr":2024,"tmdb_id":94028,"imdb_id":"tt11016042"},
+    {"id":"serie-andor","art":"serie","titel":"Andor","jahr":2022,"tmdb_id":83867,"imdb_id":"tt9253284"},
+    {"id":"serie-house-of-the-dragon","art":"serie","titel":"House of the Dragon","jahr":2022,"tmdb_id":94997,"imdb_id":"tt11198330"},
+    {"id":"serie-maxton-hall","art":"serie","titel":"Maxton Hall – Die Welt zwischen uns","jahr":2024,"tmdb_id":250670,"imdb_id":"tt27792190","originaltitel":"Maxton Hall – The World Between Us"},
+    {"id":"serie-kleo","art":"serie","titel":"Kleo","jahr":2022,"tmdb_id":206010,"imdb_id":"tt15135104"},
+    {"id":"serie-dark","art":"serie","titel":"Dark","jahr":2017,"tmdb_id":70523,"imdb_id":"tt5753856"},
+    {"id":"serie-pachinko","art":"serie","titel":"Pachinko – Ein einfaches Leben","jahr":2022,"tmdb_id":110382,"imdb_id":"tt8888462","originaltitel":"Pachinko"},
+    {"id":"serie-the-diplomat","art":"serie","titel":"The Diplomat","jahr":2023,"tmdb_id":203857,"imdb_id":"tt17491088"},
+    {"id":"serie-ted-lasso","art":"serie","titel":"Ted Lasso","jahr":2020,"tmdb_id":97546,"imdb_id":"tt10986410"},
+    {"id":"serie-3-body-problem","art":"serie","titel":"3 Body Problem","jahr":2024,"tmdb_id":108545,"imdb_id":"tt13016388"},
+    {"id":"serie-reacher","art":"serie","titel":"Reacher","jahr":2022,"tmdb_id":108978,"imdb_id":"tt9288030"},
+    {"id":"serie-silo","art":"serie","titel":"Silo","jahr":2023,"tmdb_id":125988,"imdb_id":"tt14688458"},
+    {"id":"serie-ozark","art":"serie","titel":"Ozark","jahr":2017,"tmdb_id":69740,"imdb_id":"tt5071412"},
+    {"id":"serie-berlin","art":"serie","titel":"Berlin","jahr":2023,"tmdb_id":146176,"imdb_id":"tt16288804","originaltitel":"Berlín"},
+    {"id":"serie-der-schwarm","art":"serie","titel":"Der Schwarm","jahr":2023,"tmdb_id":211240,"imdb_id":"tt0808491"},
+    {"id":"serie-lenas-hof","art":"serie","titel":"Lenas Hof","jahr":2025,"tmdb_id":116552},
+    {"id":"serie-kleinreimstadt","art":"serie","titel":"Kleinreimstadt","jahr":null},
+    {"id":"serie-kito-maja-und-die-kugelkiste","art":"serie","titel":"Kito, Maja und die Kugelkiste","jahr":2025,"tmdb_id":299447},
+    {"id":"serie-lauras-stern","art":"serie","titel":"Lauras Stern","jahr":2002,"tmdb_id":40625},
+    {"id":"serie-benjamin-bluemchen","art":"serie","titel":"Benjamin Blümchen","jahr":1989,"tmdb_id":62702},
+    {"id":"serie-oonas-und-babas-insel","art":"serie","titel":"Oonas und Babas Insel","jahr":2015,"tmdb_id":69926},
+    {"id":"serie-mue-mo-das-muellmobil","art":"serie","titel":"Mü-Mo – das Müllmobil","jahr":2020,"tmdb_id":112442},
+    {"id":"serie-die-gummibaerenbande","art":"serie","titel":"Die Gummibärenbande","jahr":1985,"tmdb_id":1931},
+    {"id":"serie-kaeptn-balu-und-seine-tollkuehne-crew","art":"serie","titel":"Käpt’n Balu und seine tollkühne Crew","jahr":1990,"tmdb_id":2720},
+    {"id":"serie-disneys-grosse-pause","art":"serie","titel":"Disneys Große Pause","jahr":1997,"tmdb_id":1546},
+    {"id":"serie-detektiv-conan","art":"serie","titel":"Detektiv Conan","jahr":1996,"tmdb_id":30983},
+    {"id":"serie-weihnachtsmann-co-kg","art":"serie","titel":"Weihnachtsmann & Co. KG","jahr":1997,"tmdb_id":13407},
+    {"id":"serie-der-kleine-baer","art":"serie","titel":"Der kleine Bär","jahr":1995,"tmdb_id":9834},
+    {"id":"serie-franklin","art":"serie","titel":"Franklin","jahr":1997,"tmdb_id":1458},
+    {"id":"serie-peter-hase-und-seine-freunde","art":"serie","titel":"Peter Hase und seine Freunde","jahr":1992,"tmdb_id":10817},
+    {"id":"serie-tabaluga","art":"serie","titel":"Tabaluga","jahr":1997,"tmdb_id":47424},
+    {"id":"serie-die-sendung-mit-der-maus","art":"serie","titel":"Die Sendung mit der Maus","jahr":1971,"tmdb_id":13819},
+    {"id":"serie-es-war-einmal-das-leben","art":"serie","titel":"Es war einmal... das Leben","jahr":1987,"tmdb_id":2632},
+    {"id":"serie-der-zauberschulbus","art":"serie","titel":"Der Zauberschulbus","jahr":1994,"tmdb_id":7248},
+    {"id":"serie-bluey","art":"serie","titel":"Bluey","jahr":2018},
+    {"id":"serie-anna-und-die-wilden-tiere","art":"serie","titel":"Anna und die wilden Tiere","jahr":2013},
+    {"id":"serie-anna-und-die-haustiere","art":"serie","titel":"Anna und die Haustiere","jahr":2015},
+    {"id":"serie-checker-tobi","art":"serie","titel":"Checker Tobi","jahr":2013},
+    {"id":"serie-die-sendung-mit-dem-elefanten","art":"serie","titel":"Die Sendung mit dem Elefanten","jahr":2007},
+    {"id":"serie-loewenzahn","art":"serie","titel":"Löwenzahn","jahr":1981},
+    {"id":"serie-die-kleine-schnecke-monika-haeuschen","art":"serie","titel":"Die kleine Schnecke Monika Häuschen","jahr":2010},
+    {"id":"serie-meine-freundin-conni","art":"serie","titel":"Meine Freundin Conni","jahr":2012},
+    {"id":"serie-bobo-siebenschlaefer","art":"serie","titel":"Bobo Siebenschläfer","jahr":2019},
+    {"id":"serie-ein-fall-fuer-die-erdmaennchen","art":"serie","titel":"Ein Fall für die Erdmännchen","jahr":2019},
+    {"id":"serie-mooooment","art":"serie","titel":"Mooooment!","jahr":2021},
+    {"id":"serie-krtek","art":"serie","titel":"Der kleine Maulwurf","jahr":1957,"originaltitel":"Krtek"},
+    {"id":"serie-meister-eder-und-sein-pumuckl","art":"serie","titel":"Meister Eder und sein Pumuckl","jahr":1982}
   ]
 }
