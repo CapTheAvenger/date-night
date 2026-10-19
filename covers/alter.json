@@ -1,7 +1,7 @@
 {
-  "hinweis": "Deutsche Altersfreigaben laut TMDb (themoviedb.org), Felder release_dates bzw. content_ratings fuer DE. Von der Gemeinschaft gepflegt, daher nicht amtlich. Nichts abgeleitet, nichts geraten.",
+  "hinweis": "Deutsche Altersfreigaben laut TMDb (themoviedb.org), Feld release_dates bzw. content_ratings fuer DE. Von der Gemeinschaft gepflegt, daher nicht amtlich. Nichts abgeleitet, nichts geraten.",
   "stand": "2026-10-19",
-  "anzahl": 118,
+  "anzahl": 155,
   "freigaben": {
     "film-inception": {
       "fsk": 12,
@@ -403,6 +403,422 @@
       "titel": "Der Super Mario Galaxy Film",
       "geholt_am": "2026-10-19"
     },
+    "tmp:alles-steht-kopf-2015": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 150540,
+      "art": "film",
+      "titel": "Alles steht Kopf",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:my-girl-meine-erste-liebe-1991": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 4032,
+      "art": "film",
+      "titel": "My Girl – Meine erste Liebe",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:findet-nemo-2003": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 12,
+      "art": "film",
+      "titel": "Findet Nemo",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:der-koenig-der-loewen-1994": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 8587,
+      "art": "film",
+      "titel": "Der König der Löwen",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:luca-2021": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 508943,
+      "art": "film",
+      "titel": "Luca",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:paddington-2014": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 116149,
+      "art": "film",
+      "titel": "Paddington",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:ratatouille-2007": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 2062,
+      "art": "film",
+      "titel": "Ratatouille",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:vaiana-2016": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 277834,
+      "art": "film",
+      "titel": "Vaiana",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:kevin-allein-zu-haus-1990": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 771,
+      "art": "film",
+      "titel": "Kevin – Allein zu Haus",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:zoomania-2016": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 269149,
+      "art": "film",
+      "titel": "Zoomania",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:coco-lebendiger-als-das-leben-2017": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 354912,
+      "art": "film",
+      "titel": "Coco – Lebendiger als das Leben!",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:oben-2009": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 14160,
+      "art": "film",
+      "titel": "Oben",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:wunder-2017": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 406997,
+      "art": "film",
+      "titel": "Wunder",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:der-junge-der-den-wind-einfing-2019": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 491480,
+      "art": "film",
+      "titel": "Der Junge, der den Wind einfing",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:wall-e-der-letzte-raeumt-die-erde-auf-2008": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 10681,
+      "art": "film",
+      "titel": "WALL·E – Der Letzte räumt die Erde auf",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:der-kleine-prinz-2015": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 309809,
+      "art": "film",
+      "titel": "Der kleine Prinz",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:mr-poppers-pinguine-2011": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 58224,
+      "art": "film",
+      "titel": "Mr. Poppers Pinguine",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:die-monster-ag-2001": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 585,
+      "art": "film",
+      "titel": "Die Monster AG",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:antarctica-gefangen-im-eis-2006": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 9036,
+      "art": "film",
+      "titel": "Antarctica – Gefangen im Eis",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:bolt-ein-hund-fuer-alle-faelle-2008": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 13053,
+      "art": "film",
+      "titel": "Bolt – Ein Hund für alle Fälle",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:der-marsianer-rettet-mark-watney-2015": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 286217,
+      "art": "film",
+      "titel": "Der Marsianer – Rettet Mark Watney",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:e-t-der-ausserirdische-1982": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 601,
+      "art": "film",
+      "titel": "E.T. – Der Außerirdische",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:zurueck-in-die-zukunft-1985": {
+      "fsk": 12,
+      "roh": "12",
+      "tmdb_id": 105,
+      "art": "film",
+      "titel": "Zurück in die Zukunft",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:die-letzten-gluehwuermchen-1988": {
+      "fsk": 6,
+      "roh": "6",
+      "tmdb_id": 12477,
+      "art": "film",
+      "titel": "Die letzten Glühwürmchen",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:der-grueffelo-2009": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 28118,
+      "art": "film",
+      "titel": "Der Grüffelo",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:das-grueffelokind-2011": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 81684,
+      "art": "film",
+      "titel": "Das Grüffelokind",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:fuer-hund-und-katz-ist-auch-noch-platz-2012": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 152581,
+      "art": "film",
+      "titel": "Für Hund und Katz ist auch noch Platz",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:stockmann-2015": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 374251,
+      "art": "film",
+      "titel": "Stockmann",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:zogg-2018": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 570701,
+      "art": "film",
+      "titel": "Zogg",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:raeuber-ratte-2017": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 494603,
+      "art": "film",
+      "titel": "Räuber Ratte",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:winnie-puuh-2011": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 51162,
+      "art": "film",
+      "titel": "Winnie Puuh",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:der-kleine-rabe-socke-2012": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 142638,
+      "art": "film",
+      "titel": "Der kleine Rabe Socke",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:lauras-stern-2004": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 12697,
+      "art": "film",
+      "titel": "Lauras Stern",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:der-kleine-eisbaer-2001": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 9084,
+      "art": "film",
+      "titel": "Der kleine Eisbär",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:die-haeschenschule-jagd-nach-dem-goldenen-ei-2017": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 425218,
+      "art": "film",
+      "titel": "Die Häschenschule – Jagd nach dem goldenen Ei",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:janosch-komm-wir-finden-einen-schatz-2012": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 139941,
+      "art": "film",
+      "titel": "Janosch – Komm, wir finden einen Schatz",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:shaun-das-schaf-der-film-2015": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 263109,
+      "art": "film",
+      "titel": "Shaun das Schaf – Der Film",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:lotta-aus-der-krachmacherstrasse-1992": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 27600,
+      "art": "film",
+      "titel": "Lotta aus der Krachmacherstraße",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:cars-2006": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 920,
+      "art": "film",
+      "titel": "Cars",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:toy-story-1995": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 862,
+      "art": "film",
+      "titel": "Toy Story",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:die-eiskoenigin-voellig-unverfroren-2013": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 109445,
+      "art": "film",
+      "titel": "Die Eiskönigin – Völlig unverfroren",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:minions-2015": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 211672,
+      "art": "film",
+      "titel": "Minions",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:madagascar-2005": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 953,
+      "art": "film",
+      "titel": "Madagascar",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:heidi-2015": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 365045,
+      "art": "film",
+      "titel": "Heidi",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:wir-kinder-aus-bullerbue-1986": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 21394,
+      "art": "film",
+      "titel": "Wir Kinder aus Bullerbü",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:paw-patrol-der-kinofilm-2021": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 675445,
+      "art": "film",
+      "titel": "Paw Patrol – Der Kinofilm",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:der-kleine-drache-kokosnuss-2014": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 308167,
+      "art": "film",
+      "titel": "Der kleine Drache Kokosnuss",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:die-biene-maja-der-kinofilm-2014": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 261103,
+      "art": "film",
+      "titel": "Die Biene Maja – Der Kinofilm",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:ostwind-zusammen-sind-wir-frei-2013": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 233639,
+      "art": "film",
+      "titel": "Ostwind – Zusammen sind wir frei",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:die-schule-der-magischen-tiere-2021": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 793937,
+      "art": "film",
+      "titel": "Die Schule der magischen Tiere",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:checker-tobi-und-das-geheimnis-unseres-planeten-2019": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 561882,
+      "art": "film",
+      "titel": "Checker Tobi und das Geheimnis unseres Planeten",
+      "geholt_am": "2026-10-19"
+    },
+    "tmp:dangal-die-hoffnung-auf-den-grossen-sieg-2016": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 360814,
+      "art": "film",
+      "titel": "Dangal – Die Hoffnung auf den großen Sieg",
+      "geholt_am": "2026-10-19"
+    },
     "serie-breaking-bad": {
       "fsk": 16,
       "roh": "16",
@@ -651,198 +1067,6 @@
       "titel": "Der Schwarm",
       "geholt_am": "2026-10-19"
     },
-    "tmp:alles-steht-kopf-2015": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 150540,
-      "art": "film",
-      "titel": "Alles steht Kopf",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:my-girl-meine-erste-liebe-1991": {
-      "fsk": 6,
-      "roh": "6",
-      "tmdb_id": 4032,
-      "art": "film",
-      "titel": "My Girl – Meine erste Liebe",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:findet-nemo-2003": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 12,
-      "art": "film",
-      "titel": "Findet Nemo",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:der-koenig-der-loewen-1994": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 8587,
-      "art": "film",
-      "titel": "Der König der Löwen",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:luca-2021": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 508943,
-      "art": "film",
-      "titel": "Luca",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:paddington-2014": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 116149,
-      "art": "film",
-      "titel": "Paddington",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:ratatouille-2007": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 2062,
-      "art": "film",
-      "titel": "Ratatouille",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:vaiana-2016": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 277834,
-      "art": "film",
-      "titel": "Vaiana",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:kevin-allein-zu-haus-1990": {
-      "fsk": 12,
-      "roh": "12",
-      "tmdb_id": 771,
-      "art": "film",
-      "titel": "Kevin – Allein zu Haus",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:zoomania-2016": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 269149,
-      "art": "film",
-      "titel": "Zoomania",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:coco-lebendiger-als-das-leben-2017": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 354912,
-      "art": "film",
-      "titel": "Coco – Lebendiger als das Leben!",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:oben-2009": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 14160,
-      "art": "film",
-      "titel": "Oben",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:wunder-2017": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 406997,
-      "art": "film",
-      "titel": "Wunder",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:der-junge-der-den-wind-einfing-2019": {
-      "fsk": 12,
-      "roh": "12",
-      "tmdb_id": 491480,
-      "art": "film",
-      "titel": "Der Junge, der den Wind einfing",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:wall-e-der-letzte-raeumt-die-erde-auf-2008": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 10681,
-      "art": "film",
-      "titel": "WALL·E – Der Letzte räumt die Erde auf",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:der-kleine-prinz-2015": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 309809,
-      "art": "film",
-      "titel": "Der kleine Prinz",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:mr-poppers-pinguine-2011": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 58224,
-      "art": "film",
-      "titel": "Mr. Poppers Pinguine",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:die-monster-ag-2001": {
-      "fsk": 6,
-      "roh": "6",
-      "tmdb_id": 585,
-      "art": "film",
-      "titel": "Die Monster AG",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:antarctica-gefangen-im-eis-2006": {
-      "fsk": 0,
-      "roh": "0",
-      "tmdb_id": 9036,
-      "art": "film",
-      "titel": "Antarctica – Gefangen im Eis",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:bolt-ein-hund-fuer-alle-faelle-2008": {
-      "fsk": 6,
-      "roh": "6",
-      "tmdb_id": 13053,
-      "art": "film",
-      "titel": "Bolt – Ein Hund für alle Fälle",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:der-marsianer-rettet-mark-watney-2015": {
-      "fsk": 12,
-      "roh": "12",
-      "tmdb_id": 286217,
-      "art": "film",
-      "titel": "Der Marsianer – Rettet Mark Watney",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:e-t-der-ausserirdische-1982": {
-      "fsk": 6,
-      "roh": "6",
-      "tmdb_id": 601,
-      "art": "film",
-      "titel": "E.T. – Der Außerirdische",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:zurueck-in-die-zukunft-1985": {
-      "fsk": 12,
-      "roh": "12",
-      "tmdb_id": 105,
-      "art": "film",
-      "titel": "Zurück in die Zukunft",
-      "geholt_am": "2026-10-19"
-    },
-    "tmp:die-letzten-gluehwuermchen-1988": {
-      "fsk": 6,
-      "roh": "6",
-      "tmdb_id": 12477,
-      "art": "film",
-      "titel": "Die letzten Glühwürmchen",
-      "geholt_am": "2026-10-19"
-    },
     "serie-lauras-stern": {
       "fsk": 0,
       "roh": "0",
@@ -946,14 +1170,96 @@
       "art": "serie",
       "titel": "Es war einmal... das Leben",
       "geholt_am": "2026-10-19"
+    },
+    "serie-bluey": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 82728,
+      "art": "serie",
+      "titel": "Bluey",
+      "geholt_am": "2026-10-19"
+    },
+    "serie-anna-und-die-wilden-tiere": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 80923,
+      "art": "serie",
+      "titel": "Anna und die wilden Tiere",
+      "geholt_am": "2026-10-19"
+    },
+    "serie-anna-und-die-haustiere": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 80911,
+      "art": "serie",
+      "titel": "Anna und die Haustiere",
+      "geholt_am": "2026-10-19"
+    },
+    "serie-checker-tobi": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 80934,
+      "art": "serie",
+      "titel": "Checker Tobi",
+      "geholt_am": "2026-10-19"
+    },
+    "serie-die-sendung-mit-dem-elefanten": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 41174,
+      "art": "serie",
+      "titel": "Die Sendung mit dem Elefanten",
+      "geholt_am": "2026-10-19"
+    },
+    "serie-loewenzahn": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 46129,
+      "art": "serie",
+      "titel": "Löwenzahn",
+      "geholt_am": "2026-10-19"
+    },
+    "serie-meine-freundin-conni": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 70272,
+      "art": "serie",
+      "titel": "Meine Freundin Conni",
+      "geholt_am": "2026-10-19"
+    },
+    "serie-krtek": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 44256,
+      "art": "serie",
+      "titel": "Der kleine Maulwurf",
+      "geholt_am": "2026-10-19"
+    },
+    "serie-meister-eder-und-sein-pumuckl": {
+      "fsk": 0,
+      "roh": "0",
+      "tmdb_id": 30688,
+      "art": "serie",
+      "titel": "Meister Eder und sein Pumuckl",
+      "geholt_am": "2026-10-19"
     }
   },
   "ohne_freigabe": [
+    "Die Schnecke und der Buckelwal (tmp:die-schnecke-und-der-buckelwal-2019): keine DE-Angabe",
+    "Superwurm (tmp:superwurm-2021): keine DE-Angabe",
+    "Mama Muh und die Krähe (tmp:mama-muh-und-die-kraehe-2008): keine DE-Angabe",
+    "Pettersson und Findus – Kleiner Quälgeist, große Freundschaft (tmp:pettersson-und-findus-kleiner-quaelgeist-grosse-freundschaft-2014): keine tmdb_id",
+    "Conni – Geheimnis um Kater Mau (tmp:conni-geheimnis-um-kater-mau-2016): keine tmdb_id",
+    "Die Oktonauten und die Höhle des Deep (tmp:die-oktonauten-und-die-hoehle-des-deep-2020): keine DE-Angabe",
     "Lenas Hof (serie-lenas-hof): keine DE-Angabe",
     "Kleinreimstadt (serie-kleinreimstadt): keine tmdb_id",
     "Kito, Maja und die Kugelkiste (serie-kito-maja-und-die-kugelkiste): keine DE-Angabe",
     "Oonas und Babas Insel (serie-oonas-und-babas-insel): keine DE-Angabe",
     "Franklin (serie-franklin): keine DE-Angabe",
-    "Der Zauberschulbus (serie-der-zauberschulbus): keine DE-Angabe"
+    "Der Zauberschulbus (serie-der-zauberschulbus): keine DE-Angabe",
+    "Die kleine Schnecke Monika Häuschen (serie-die-kleine-schnecke-monika-haeuschen): keine tmdb_id",
+    "Bobo Siebenschläfer (serie-bobo-siebenschlaefer): keine tmdb_id",
+    "Ein Fall für die Erdmännchen (serie-ein-fall-fuer-die-erdmaennchen): keine tmdb_id",
+    "Mooooment! (serie-mooooment): keine tmdb_id"
   ]
 }
