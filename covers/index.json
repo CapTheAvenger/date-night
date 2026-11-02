@@ -1,6 +1,6 @@
 {
   "hinweis": "Poster von TMDb (themoviedb.org). Dieses Projekt ist privat und wird nicht von TMDb unterstuetzt oder zertifiziert.",
-  "stand": "2026-10-26",
+  "stand": "2026-11-02",
   "anzahl": 887,
   "cover": {
     "film-inception": {
@@ -3042,14 +3042,14 @@
       "art": "film",
       "titel": "Babel",
       "tmdb_id": 1164,
-      "poster_path": "/bZByZbvU7u14WjoUJERqCRW9saN.jpg",
+      "poster_path": "/fCHqcBl1LFDIGurUDEdFCpkYTnH.jpg",
       "gefunden_ueber": "tmdb_id",
       "tmdb_titel": "Babel",
       "tmdb_jahr": 2006,
       "erwartet_titel": "Babel",
       "erwartet_jahr": 2006,
-      "bytes": 36848,
-      "geholt_am": "2026-10-21"
+      "bytes": 51530,
+      "geholt_am": "2026-11-02"
     },
     "tt0396171": {
       "datei": "covers/tt0396171.jpg",
@@ -4078,14 +4078,14 @@
       "art": "film",
       "titel": "John Wick",
       "tmdb_id": 245891,
-      "poster_path": "/vr92idbWfEFY0bcapzMk1nZkVXr.jpg",
+      "poster_path": "/erBsqm9gNvq7pQTPrkXdRpF6CFw.jpg",
       "gefunden_ueber": "tmdb_id",
       "tmdb_titel": "John Wick",
       "tmdb_jahr": 2014,
       "erwartet_titel": "John Wick",
       "erwartet_jahr": 2014,
-      "bytes": 52094,
-      "geholt_am": "2026-10-21"
+      "bytes": 43031,
+      "geholt_am": "2026-11-02"
     },
     "tt2802144": {
       "datei": "covers/tt2802144.jpg",
@@ -5786,14 +5786,14 @@
       "art": "film",
       "titel": "Mommy",
       "tmdb_id": 265177,
-      "poster_path": "/3zyQtPg3avKprmJP2gBiYgyWUQC.jpg",
+      "poster_path": "/zR1oHk9seg14nBF7JqaYeOeeTeY.jpg",
       "gefunden_ueber": "tmdb_id",
       "tmdb_titel": "Mommy",
       "tmdb_jahr": 2014,
       "erwartet_titel": "Mommy",
       "erwartet_jahr": 2014,
-      "bytes": 39674,
-      "geholt_am": "2026-10-21"
+      "bytes": 28860,
+      "geholt_am": "2026-11-02"
     },
     "tt2401878": {
       "datei": "covers/tt2401878.jpg",
@@ -9902,14 +9902,14 @@
       "art": "serie",
       "titel": "Nobody Wants This",
       "tmdb_id": 250923,
-      "poster_path": "/cUpIceeJJoRqUHSCzh6jRSmlpkA.jpg",
+      "poster_path": "/1RNtqMeSNNBkXqK8WPUMf72vGrt.jpg",
       "gefunden_ueber": "tmdb_id",
       "tmdb_titel": "Nobody Wants This",
       "tmdb_jahr": 2024,
       "erwartet_titel": "Nobody Wants This",
       "erwartet_jahr": 2024,
-      "bytes": 54631,
-      "geholt_am": "2026-10-21"
+      "bytes": 64823,
+      "geholt_am": "2026-11-02"
     },
     "serie-the-afterparty": {
       "datei": "covers/serie-the-afterparty.jpg",
@@ -10112,14 +10112,14 @@
       "art": "serie",
       "titel": "Die rote Königin",
       "tmdb_id": 203667,
-      "poster_path": "/lubyGqJqCXCzQ6FOTCNDird8NYh.jpg",
+      "poster_path": "/nBKhu8VXns8siOxfRj6MNctVTMn.jpg",
       "gefunden_ueber": "tmdb_id",
       "tmdb_titel": "Die rote Königin",
       "tmdb_jahr": 2024,
       "erwartet_titel": "Die rote Königin",
       "erwartet_jahr": 2024,
-      "bytes": 56558,
-      "geholt_am": "2026-10-21"
+      "bytes": 56709,
+      "geholt_am": "2026-11-02"
     },
     "serie-el-caso-asunta": {
       "datei": "covers/serie-el-caso-asunta.jpg",
