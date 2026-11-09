@@ -1,6 +1,6 @@
 {
   "hinweis": "Poster von TMDb (themoviedb.org). Dieses Projekt ist privat und wird nicht von TMDb unterstuetzt oder zertifiziert.",
-  "stand": "2026-11-02",
+  "stand": "2026-11-09",
   "anzahl": 887,
   "cover": {
     "film-inception": {
@@ -2496,14 +2496,14 @@
       "art": "film",
       "titel": "Black Swan",
       "tmdb_id": 44214,
-      "poster_path": "/f5yFgSs9wMCP9lNnRGUM1QI0tXs.jpg",
+      "poster_path": "/viWheBd44bouiLCHgNMvahLThqx.jpg",
       "gefunden_ueber": "tmdb_id",
       "tmdb_titel": "Black Swan",
       "tmdb_jahr": 2010,
       "erwartet_titel": "Black Swan",
       "erwartet_jahr": 2010,
-      "bytes": 42261,
-      "geholt_am": "2026-10-21"
+      "bytes": 35642,
+      "geholt_am": "2026-11-09"
     },
     "tt1130884": {
       "datei": "covers/tt1130884.jpg",
@@ -3798,14 +3798,14 @@
       "art": "film",
       "titel": "Die Unfassbaren – Now You See Me",
       "tmdb_id": 75656,
-      "poster_path": "/7iucGBdKI3GZqFkAgXgjZeNCsax.jpg",
+      "poster_path": "/h2yCowprPEfvaecfP9kXtHI9a6v.jpg",
       "gefunden_ueber": "tmdb_id",
       "tmdb_titel": "Die Unfassbaren",
       "tmdb_jahr": 2013,
       "erwartet_titel": "Die Unfassbaren – Now You See Me",
       "erwartet_jahr": 2013,
-      "bytes": 44291,
-      "geholt_am": "2026-10-21"
+      "bytes": 44723,
+      "geholt_am": "2026-11-09"
     },
     "tt1454468": {
       "datei": "covers/tt1454468.jpg",
@@ -7970,14 +7970,14 @@
       "art": "serie",
       "titel": "Sherlock",
       "tmdb_id": 19885,
-      "poster_path": "/fdu6eWFqnVlb3wBkX0BKiZdrNB9.jpg",
-      "gefunden_ueber": "Titelsuche",
+      "poster_path": "/zfyMumujcUp4xFAgXNfdDe0yIac.jpg",
+      "gefunden_ueber": "tmdb_id",
       "tmdb_titel": "Sherlock",
       "tmdb_jahr": 2010,
       "erwartet_titel": "Sherlock",
       "erwartet_jahr": 2010,
-      "bytes": 8640,
-      "geholt_am": "2026-10-21"
+      "bytes": 30753,
+      "geholt_am": "2026-11-09"
     },
     "serie-doctor-who-2005": {
       "datei": "covers/serie-doctor-who-2005.jpg",
