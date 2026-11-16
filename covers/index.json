@@ -1,6 +1,6 @@
 {
   "hinweis": "Poster von TMDb (themoviedb.org). Dieses Projekt ist privat und wird nicht von TMDb unterstuetzt oder zertifiziert.",
-  "stand": "2026-11-09",
+  "stand": "2026-11-16",
   "anzahl": 887,
   "cover": {
     "film-inception": {
@@ -4680,14 +4680,14 @@
       "art": "film",
       "titel": "Blade Runner 2049",
       "tmdb_id": 335984,
-      "poster_path": "/cdaf9yNZ7T0eZcrGiOilrVrTYHB.jpg",
+      "poster_path": "/xJBwhH1oquzufluJhcENpuHp0im.jpg",
       "gefunden_ueber": "tmdb_id",
       "tmdb_titel": "Blade Runner 2049",
       "tmdb_jahr": 2017,
       "erwartet_titel": "Blade Runner 2049",
       "erwartet_jahr": 2017,
-      "bytes": 58923,
-      "geholt_am": "2026-10-21"
+      "bytes": 57994,
+      "geholt_am": "2026-11-16"
     },
     "tt5726616": {
       "datei": "covers/tt5726616.jpg",
@@ -7774,14 +7774,14 @@
       "art": "serie",
       "titel": "Firefly – Der Aufbruch der Serenity",
       "tmdb_id": 1437,
-      "poster_path": "/vZcKsy4sGAvWMVqLluwYuoi11Kj.jpg",
-      "gefunden_ueber": "Titelsuche",
+      "poster_path": "/2DmSUDA4r0rKv2vdTCxIbfXIgOT.jpg",
+      "gefunden_ueber": "tmdb_id",
       "tmdb_titel": "Firefly - Der Aufbruch der Serenity",
       "tmdb_jahr": 2002,
       "erwartet_titel": "Firefly – Der Aufbruch der Serenity",
       "erwartet_jahr": 2002,
-      "bytes": 63927,
-      "geholt_am": "2026-10-21"
+      "bytes": 56872,
+      "geholt_am": "2026-11-16"
     },
     "serie-veronica-mars": {
       "datei": "covers/serie-veronica-mars.jpg",
