@@ -152,7 +152,8 @@ def angebote(tmdb_id, art):
     d = hole("/%s/%s/watch/providers" % ("movie" if art == "film" else "tv", tmdb_id))
     if d is None:
         return None
-    de = (d.get("results") or {}).get("DE") or {}
+    ergebnisse = d.get("results")
+    de = (ergebnisse.get("DE") if isinstance(ergebnisse, dict) else None) or {}
     out = {"link": de.get("link")}
     for k in KATEGORIEN:
         out[k] = [{"id": p.get("provider_id"), "name": p.get("provider_name")}
@@ -195,8 +196,14 @@ def main():
         streaming = json.loads(stream_pfad.read_text(encoding="utf-8")).get("titel", {})
     stream_neu = stream_fehler = 0
 
-    quelle = json.loads((DATEN / "titles.json").read_text(encoding="utf-8"))
-    for e in quelle["titel"]:
+    # titles.json ist die Hauptliste. Nachtraege stehen in titles-*.json -
+    # so muss fuer ein paar neue Titel nicht die ganze Liste neu ins Repo.
+    titel_liste, gesehen = [], set()
+    for datei in sorted(DATEN.glob("titles*.json"), key=lambda q: (q.name != "titles.json", q.name)):
+        for e in json.loads(datei.read_text(encoding="utf-8")).get("titel", []):
+            if e.get("id") and e["id"] not in gesehen:
+                gesehen.add(e["id"]); titel_liste.append(e)
+    for e in titel_liste:
         cid   = e.get("id")
         art   = e.get("art")
         titel = e.get("titel") or cid
