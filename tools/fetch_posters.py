@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Holt Poster und deutsche Altersfreigaben von TMDb.
+"""Holt Poster, deutsche Altersfreigaben und Streaming-Angebote von TMDb.
 
-Poster landen als kleine JPEGs unter covers/, die Freigaben in covers/alter.json.
+Poster landen als kleine JPEGs unter covers/, die Freigaben in covers/alter.json,
+die Streaming-Angebote fuer Deutschland in covers/streaming.json
+(Daten von JustWatch, ueber TMDb ausgeliefert).
 
 Liest data/titles.json (nur Titel und Kennungen, keine persoenlichen Daten)
 und laeuft in einer GitHub Action, weil diese Umgebung freies Internet hat.
@@ -135,6 +137,29 @@ def freigabe(tmdb_id, art):
     return None, "keine DE-Angabe"
 
 
+KATEGORIEN = ("flatrate", "free", "ads", "rent", "buy")
+
+
+def angebote(tmdb_id, art):
+    """Streaming-Angebote in Deutschland (JustWatch-Daten ueber TMDb).
+
+    Rueckgabe: None, wenn der Abruf scheiterte (dann bleibt der alte Stand),
+    sonst ein Dict mit den fuenf Kategorien - leer, wenn es in DE nichts gibt.
+    Nichts wird ergaenzt: nur, was TMDb fuer DE meldet.
+    """
+    if not tmdb_id:
+        return None
+    d = hole("/%s/%s/watch/providers" % ("movie" if art == "film" else "tv", tmdb_id))
+    if d is None:
+        return None
+    de = (d.get("results") or {}).get("DE") or {}
+    out = {"link": de.get("link")}
+    for k in KATEGORIEN:
+        out[k] = [{"id": p.get("provider_id"), "name": p.get("provider_name")}
+                  for p in (de.get(k) or []) if p.get("provider_name")]
+    return out
+
+
 def lade_bild(poster_path):
     url = BILD + poster_path
     for versuch in range(3):
@@ -164,6 +189,11 @@ def main():
     offen = []
     alter = {}
     ohne_alter = []
+    stream_pfad = COVERS / "streaming.json"
+    streaming = {}
+    if stream_pfad.exists():
+        streaming = json.loads(stream_pfad.read_text(encoding="utf-8")).get("titel", {})
+    stream_neu = stream_fehler = 0
 
     quelle = json.loads((DATEN / "titles.json").read_text(encoding="utf-8"))
     for e in quelle["titel"]:
@@ -180,6 +210,22 @@ def main():
         else:
             alter[cid] = {"fsk": wert, "roh": roh, "tmdb_id": a_id,
                           "art": art, "titel": titel, "geholt_am": time.strftime("%Y-%m-%d")}
+
+        # Streaming-Angebote haengen wie die Freigabe nur an der tmdb_id.
+        # Wie der Titel gefunden wurde, steht dabei: ein Treffer der
+        # Titelsuche wird vor der Uebernahme gegen Titel und Jahr geprueft.
+        ang = angebote(a_id, art)
+        if ang is None:
+            if a_id:
+                stream_fehler += 1
+        else:
+            ang.update({"tmdb_id": a_id, "art": art, "titel": titel,
+                        "gefunden_ueber": "tmdb_id" if e.get("tmdb_id") else wie,
+                        "tmdb_titel": t_titel, "tmdb_jahr": t_jahr,
+                        "erwartet_titel": e.get("titel"), "erwartet_jahr": e.get("jahr"),
+                        "geholt_am": time.strftime("%Y-%m-%d")})
+            streaming[cid] = ang
+            stream_neu += 1
 
         if not ppath:
             offen.append("%s (%s): %s" % (titel, cid, wie))
@@ -233,7 +279,17 @@ def main():
         "ohne_freigabe": ohne_alter,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    stream_pfad.write_text(json.dumps({
+        "hinweis": "Streaming-Angebote in Deutschland laut JustWatch, ausgeliefert ueber "
+                   "TMDb (watch/providers, Region DE). flatrate = im Abo, free/ads = kostenlos, "
+                   "rent = leihen, buy = kaufen. Leere Listen heissen: in DE kein Angebot gemeldet.",
+        "stand": time.strftime("%Y-%m-%d"),
+        "anzahl": len(streaming),
+        "titel": streaming,
+    }, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
     print("\nAltersfreigaben: %d gefunden, %d offen" % (len(alter), len(ohne_alter)))
+    print("Streaming: %d abgefragt, %d Abrufe fehlgeschlagen" % (stream_neu, stream_fehler))
     print("\nneu %d | aktualisiert %d | unveraendert %d | ohne Poster %d"
           % (neu, aktualisiert, unveraendert, len(offen)))
     if offen:
@@ -246,6 +302,9 @@ def main():
             f.write("## Poster-Lauf\n\n")
             f.write("| neu | aktualisiert | unveraendert | ohne Poster |\n|--:|--:|--:|--:|\n")
             f.write("| %d | %d | %d | %d |\n\n" % (neu, aktualisiert, unveraendert, len(offen)))
+            f.write("## Streaming (DE, JustWatch ueber TMDb)\n\n")
+            f.write("| abgefragt | fehlgeschlagen |\n|--:|--:|\n| %d | %d |\n\n"
+                    % (stream_neu, stream_fehler))
             f.write("## Altersfreigaben (DE, laut TMDb)\n\n")
             f.write("| gefunden | ohne Angabe |\n|--:|--:|\n| %d | %d |\n\n"
                     % (len(alter), len(ohne_alter)))
