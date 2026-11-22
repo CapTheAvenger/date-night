@@ -1,0 +1,19 @@
+{
+  "hinweis": "Nachtrag zu titles.json (neue Titel seit dem letzten vollen Stand). Nur Titel und Kennungen.",
+  "anzahl": 13,
+  "titel": [
+    {"id":"tmp:matilda-1996","art":"film","titel":"Matilda","jahr":1996,"tmdb_id":10830},
+    {"id":"tmp:jumanji-1995","art":"film","titel":"Jumanji","jahr":1995,"tmdb_id":8844},
+    {"id":"tmp:ein-hund-namens-beethoven-1992","art":"film","titel":"Ein Hund namens Beethoven","jahr":1992,"tmdb_id":11806,"originaltitel":"Beethoven"},
+    {"id":"tmp:free-willy-ruf-der-freiheit-1993","art":"film","titel":"Free Willy – Ruf der Freiheit","jahr":1993,"tmdb_id":1634,"originaltitel":"Free Willy"},
+    {"id":"tmp:mrs-doubtfire-das-stachelige-kindermaedchen-1993","art":"film","titel":"Mrs. Doubtfire – Das stachelige Kindermädchen","jahr":1993,"tmdb_id":788,"originaltitel":"Mrs. Doubtfire"},
+    {"id":"tmp:ein-zwilling-kommt-selten-allein-1998","art":"film","titel":"Ein Zwilling kommt selten allein","jahr":1998,"tmdb_id":9820,"originaltitel":"The Parent Trap"},
+    {"id":"tmp:die-kleinen-superstrolche-1994","art":"film","titel":"Die kleinen Superstrolche","jahr":1994,"tmdb_id":10897,"originaltitel":"The Little Rascals"},
+    {"id":"tmp:richie-rich-1994","art":"film","titel":"Richie Rich","jahr":1994,"tmdb_id":11011},
+    {"id":"tmp:dennis-1993","art":"film","titel":"Dennis","jahr":1993,"tmdb_id":12139,"originaltitel":"Dennis the Menace"},
+    {"id":"tmp:casper-1995","art":"film","titel":"Casper","jahr":1995,"tmdb_id":8839},
+    {"id":"tmp:herkules-und-die-sandlot-kids-1993","art":"film","titel":"Herkules und die Sandlot-Kids","jahr":1993,"tmdb_id":11528,"originaltitel":"The Sandlot"},
+    {"id":"tmp:hook-1991","art":"film","titel":"Hook","jahr":1991,"tmdb_id":879},
+    {"id":"tmp:juniors-freier-tag-1994","art":"film","titel":"Juniors freier Tag","jahr":1994,"tmdb_id":11212,"originaltitel":"Baby's Day Out"}
+  ]
+}
