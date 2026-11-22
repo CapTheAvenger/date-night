@@ -22,7 +22,7 @@ for datei, art in (("films.json", "film"), ("series.json", "serie")):
         if ot and ot != x.get("titel_de"):
             e["originaltitel"] = ot
         raus.append(e)
-zeilen = ",\n    ".join(json.dumps(t, ensure_ascii=False) for t in raus)
+zeilen = ",\n    ".join(json.dumps(t, ensure_ascii=False, separators=(",", ":")) for t in raus)
 open(os.path.join(B, "data", "titles.json"), "w", encoding="utf-8").write(
     '{\n  "hinweis": "Nur Titel und Kennungen fuer den Poster-Lauf. Keine persoenlichen Daten.",\n'
     '  "anzahl": %d,\n  "titel": [\n    %s\n  ]\n}\n' % (len(raus), zeilen))
