@@ -198,12 +198,14 @@ def main():
 
     # titles.json ist die Hauptliste. Nachtraege stehen in titles-*.json -
     # so muss fuer ein paar neue Titel nicht die ganze Liste neu ins Repo.
-    titel_liste, gesehen = [], set()
+    # Ein Nachtrag mit derselben id ersetzt den Eintrag der Hauptliste
+    # (z. B. wenn eine geprufte tmdb_id nachgeliefert wird).
+    titel_nach_id = {}
     for datei in sorted(DATEN.glob("titles*.json"), key=lambda q: (q.name != "titles.json", q.name)):
         for e in json.loads(datei.read_text(encoding="utf-8")).get("titel", []):
-            if e.get("id") and e["id"] not in gesehen:
-                gesehen.add(e["id"]); titel_liste.append(e)
-    for e in titel_liste:
+            if e.get("id"):
+                titel_nach_id[e["id"]] = e
+    for e in titel_nach_id.values():
         cid   = e.get("id")
         art   = e.get("art")
         titel = e.get("titel") or cid
