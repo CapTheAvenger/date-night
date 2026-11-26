@@ -1,6 +1,6 @@
 {
   "hinweis": "Nachtrag zu titles.json (neue Titel seit dem letzten vollen Stand). Nur Titel und Kennungen.",
-  "anzahl": 14,
+  "anzahl": 19,
   "titel": [
     {"id":"tmp:matilda-1996","art":"film","titel":"Matilda","jahr":1996,"tmdb_id":10830},
     {"id":"tmp:jumanji-1995","art":"film","titel":"Jumanji","jahr":1995,"tmdb_id":8844},
@@ -15,6 +15,11 @@
     {"id":"tmp:herkules-und-die-sandlot-kids-1993","art":"film","titel":"Herkules und die Sandlot-Kids","jahr":1993,"tmdb_id":11528,"originaltitel":"The Sandlot"},
     {"id":"tmp:hook-1991","art":"film","titel":"Hook","jahr":1991,"tmdb_id":879},
     {"id":"tmp:juniors-freier-tag-1994","art":"film","titel":"Juniors freier Tag","jahr":1994,"tmdb_id":11212,"originaltitel":"Baby's Day Out"},
-    {"id":"serie-captain-tsubasa","art":"serie","titel":"Captain Tsubasa – Die tollen Fußballstars","jahr":1983,"tmdb_id":25707,"originaltitel":"キャプテン翼 (Kyaputen Tsubasa)"}
+    {"id":"serie-captain-tsubasa","art":"serie","titel":"Captain Tsubasa – Die tollen Fußballstars","jahr":1983,"tmdb_id":25707,"originaltitel":"キャプテン翼 (Kyaputen Tsubasa)"},
+    {"id":"tmp:pettersson-und-findus-kleiner-quaelgeist-grosse-freundschaft-2014","art":"film","titel":"Pettersson und Findus – Kleiner Quälgeist, große Freundschaft","jahr":2014,"tmdb_id":262682},
+    {"id":"tmp:conni-geheimnis-um-kater-mau-2016","art":"film","titel":"Meine Freundin Conni – Geheimnis um Kater Mau","jahr":2020,"tmdb_id":710212},
+    {"id":"serie-bobo-siebenschlaefer","art":"serie","titel":"Bobo Siebenschläfer","jahr":2014,"tmdb_id":69389},
+    {"id":"serie-ein-fall-fuer-die-erdmaennchen","art":"serie","titel":"Ein Fall für die Erdmännchen","jahr":2017,"tmdb_id":91703},
+    {"id":"serie-stilles-wasser","art":"serie","titel":"Stilles Wasser","jahr":2020,"tmdb_id":111834,"originaltitel":"Stillwater"}
   ]
 }
