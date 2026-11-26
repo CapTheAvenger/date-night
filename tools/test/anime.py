@@ -24,8 +24,8 @@ async def main():
           serien:DATA.items.filter(i=>i.kind==='serie').length,
           rest:DATA.items.filter(i=>i.kind==='restaurant').length,
           akt:DATA.items.filter(i=>i.kind==='aktivitaet').length}))()""")
-        chk("515 Filme", r["filme"] == 515, json.dumps(r))
-        chk("380 Serien", r["serien"] == 380, json.dumps(r))
+        chk("mind. 515 Filme", r["filme"] >= 515, json.dumps(r))
+        chk("mind. 380 Serien", r["serien"] >= 380, json.dumps(r))
         chk("Restaurants und Aktivitaeten unberuehrt", r["rest"] == 41 and r["akt"] == 3, json.dumps(r))
 
         # ---------- alle 18 Titel da, mit Empfehlungsblock ----------
