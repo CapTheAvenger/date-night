@@ -1,6 +1,6 @@
 {
   "hinweis": "Nachtrag zu titles.json (neue Titel seit dem letzten vollen Stand). Nur Titel und Kennungen.",
-  "anzahl": 13,
+  "anzahl": 14,
   "titel": [
     {"id":"tmp:matilda-1996","art":"film","titel":"Matilda","jahr":1996,"tmdb_id":10830},
     {"id":"tmp:jumanji-1995","art":"film","titel":"Jumanji","jahr":1995,"tmdb_id":8844},
@@ -14,6 +14,7 @@
     {"id":"tmp:casper-1995","art":"film","titel":"Casper","jahr":1995,"tmdb_id":8839},
     {"id":"tmp:herkules-und-die-sandlot-kids-1993","art":"film","titel":"Herkules und die Sandlot-Kids","jahr":1993,"tmdb_id":11528,"originaltitel":"The Sandlot"},
     {"id":"tmp:hook-1991","art":"film","titel":"Hook","jahr":1991,"tmdb_id":879},
-    {"id":"tmp:juniors-freier-tag-1994","art":"film","titel":"Juniors freier Tag","jahr":1994,"tmdb_id":11212,"originaltitel":"Baby's Day Out"}
+    {"id":"tmp:juniors-freier-tag-1994","art":"film","titel":"Juniors freier Tag","jahr":1994,"tmdb_id":11212,"originaltitel":"Baby's Day Out"},
+    {"id":"serie-captain-tsubasa","art":"serie","titel":"Captain Tsubasa – Die tollen Fußballstars","jahr":1983,"tmdb_id":25707,"originaltitel":"キャプテン翼 (Kyaputen Tsubasa)"}
   ]
 }
